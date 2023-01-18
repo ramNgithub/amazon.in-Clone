@@ -1,4 +1,5 @@
 import './App.css';
+import Bestseller from './Components/BestSeller/Bestseller';
 
 function App() {
   return (
