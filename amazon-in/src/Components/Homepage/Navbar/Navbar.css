@@ -1,0 +1,142 @@
+.ShopBag-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav-main-div{
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.nav-search-bar{
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+    margin-left: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.nav-main-div-one{
+    /* background-color: blue; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    cursor: pointer;
+    margin-top: 0.8px;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-icon:hover{
+    background-color: rgb(255, 166, 0);
+}
+.ind-flag-div{
+    /* background-color: bisque; */
+    display: flex;
+    margin-left: 25px;
+    gap: 5px;
+    align-items: center;
+    
+    height: 25px;
+    padding: 10px;
+}
+.ind-flag-div>p{
+    color: white;
+}
+.ind-flag-div>img{
+    height: 20px;
+
+}
+.ind-flag-div:hover{
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:groove;
+}
+.nav-main-div-one>button{
+    background-color: black;
+    color: white;
+    
+    margin-left: 20px;
+    height: 46px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.nav-main-div-one>button:hover{
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+    border-style:groove;
+}
+.nav-cart{
+    color: white;
+    /* padding-left: 10px; */
+    /* background-color: rgb(148, 148, 125); */
+    margin-left: 20px;
+    height: auto;
+    
+}
+.nav-cart>img{
+    width: 40px;
+    /* margin-top: -45px; */
+}
+.nav-cart>p{
+   margin-left: 15px;
+   font-weight: bold;
+   font-size: 20px;
+   color: rgb(247, 167, 17);
+   margin-top: -5px;
+   margin-bottom: -10px;
+}
+.nav-cart:hover{
+    /* padding: 0px 10px ; */
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:inset;
+}
+
+.nav-main-div-two{
+    /* background-color: aqua; */
+    height: 40px;
+    display: flex;
+  
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-main-div-main{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+.nav-main-div-two>div:nth-child(1){
+    margin-left: 10px;
+}
+.nav-main-div-two-elements{
+
+    background-color: black;
+    color: white;
+    height: 80%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.nav-main-div-two-elements:hover{
+    padding: 0px 10px ;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style:inset;
+    
+}
+
+
+
