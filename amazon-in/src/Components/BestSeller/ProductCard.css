@@ -2,12 +2,15 @@
 .card{
    /* border: 1px solid red; */
    padding: 10px;
-   text-align: left;
+   /* text-align: left; */
    margin: 5%;
    cursor: pointer;
 }
 .card>img{
-    width: 100%;
+    /* border: 1px solid blue; */
+    width: 215px;
+    height: 215px;
+    text-align: center;
 }
 .card>div{
     display: flex;
@@ -16,6 +19,9 @@
     align-items: center;
     margin-bottom: -10px;
     margin-top: -20px;
+}
+.card>div>p{
+    color: #dc2626;
 }
 .card>p{
    font-family:"Amazon Ember", Arial, sans-serif;;
