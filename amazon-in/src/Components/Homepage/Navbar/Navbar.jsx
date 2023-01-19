@@ -6,6 +6,7 @@ import "./Navbar.css"
 import { auth } from '../firebase';
 import { signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 function Navbar({username}) {
     const navigate=useNavigate()
 
@@ -22,7 +23,7 @@ function Navbar({username}) {
         }
      }
 
-     
+
    return (
     <div className='nav-main-div'>
             <div>
@@ -38,12 +39,13 @@ function Navbar({username}) {
                     <img width={"20px"} src="https://www.seekpng.com/png/small/590-5909867_indian-flag-india-flag-icon-square.png" alt="flag" />
                     <p>EN</p>
                 </div>
-                <button>Account</button>
+                <button ><Link to="/signup" className='nav-acc-btn'>Account</Link></button> 
                 <button>Return <br/> & Order</button>
                 <div className='nav-cart'>
                     <p>0</p>
                     <img src={cart} alt="Cart-icon" />
                 </div>
+                <button onClick={handlesignout}>Signout</button>
             </div>
         
             <div className='nav-main-div-two'>
@@ -55,7 +57,11 @@ function Navbar({username}) {
                     <p>Amazon miniTv</p>
                 </div>
                 <div className='nav-main-div-two-elements'>
-                    <p>Best sellers</p>
+                    <Link to="/bestseller" className='bestSeller'>
+                        <p >
+                            Best sellers
+                        </p>
+                    </Link>
                 </div>
                 <div className='nav-main-div-two-elements'>
                     <p>Mobiles</p>
@@ -81,10 +87,10 @@ function Navbar({username}) {
                 <div className='nav-main-div-two-elements'>
                     <p>Home & Kitchen</p>
                 </div>
-                <div className='nav-main-div-two-elements'>
-                    <p>{username}</p>
+                <div className='nav-name-div'>
+                    <p>{username ? "Hello, "+username : "Hello  ?"}</p>
                 </div>
-                <button onClick={handlesignout}>Signout</button>
+                
                 
             </div>
         </div>

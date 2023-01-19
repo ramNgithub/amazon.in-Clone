@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import MobilePage from "../../MobilePage/Components/MobilePage";
+import Bestseller from '../../BestSeller/Bestseller';
 import { auth } from "../firebase";
 import Homepage from "../Home/Homepage";
 import Login from "../Login/Login";
@@ -18,6 +19,7 @@ const MainRoutes = () => {
 		});
 	}, []);
 
+
 	return (
 		<div>
 			<Routes>
@@ -25,6 +27,7 @@ const MainRoutes = () => {
 				<Route path="/login" element={<Login />} />
 				<Route path="/signup" element={<Signup />} />
 				<Route path="/mobile" element={<MobilePage />} />
+        <Route path='/bestseller' element={<Bestseller/>}/>
 			</Routes>
 		</div>
 	);
