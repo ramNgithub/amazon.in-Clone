@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import {Routes,Route} from "react-router-dom";
+import Bestseller from '../../BestSeller/Bestseller';
 import { auth } from '../firebase';
 import Homepage from '../Home/Homepage';
 import Login from '../Login/Login';
@@ -25,6 +26,8 @@ const MainRoutes = () => {
             <Route path='/' element={<Homepage name={userName}/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/signup' element={<Signup/>}/>
+            <Route path='/bestseller' element={<Bestseller/>}/>
+
         </Routes>
        
     </div>
