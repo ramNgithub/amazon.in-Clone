@@ -1,0 +1,14 @@
+.product__card * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.product__title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
