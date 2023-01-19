@@ -4,18 +4,22 @@ import "./ProductCard.css";
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
-const ProductCard = () => {
+
+const ProductCard = (el) => {
+    const handleClick = (el) =>{
+        localStorage.setItem("product",JSON.stringify(el))
+    }
   return (
-    <div className='card'>
-        <img src="https://images-eu.ssl-images-amazon.com/images/I/81KEKEDFUcL._AC_UL450_SR450,320_.jpg" alt="" />
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, ad.</p>
+    <div className='card' onClick={()=>handleClick(el)}>
+        <img src={el.thumbnail} alt="" />
+        <p>{el.description}</p>
         <div>
-        <CurrencyRupeeIcon  fontSize="small"/>
-        <h4> 1000 </h4>
+        {/* <CurrencyRupeeIcon  fontSize="small"/> */}
+        <p> $ {el.price}.00 </p>
         </div>
-        <button>
+        {/* <button>
            Add to cart 
-        </button>
+        </button> */}
     </div>
   )
 }

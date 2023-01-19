@@ -17,6 +17,9 @@
     margin-left: 20px;
     border-radius: 5px 0px 0px 5px;
 }
+.nav-search-bar:focus{
+  outline: 0;
+}
 .nav-main-div-one{
     /* background-color: blue; */
     height: 60px;
@@ -107,7 +110,7 @@
     display: flex;
   
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 
 }
 
@@ -137,6 +140,22 @@
     border-style:inset;
     
 }
-
-
+.bestSeller{
+    color: white;
+    text-decoration: none;
+}
+.nav-acc-btn{
+    color: white;
+    text-decoration: none;
+}
+.nav-name-div{
+    color: white;
+    /* background-color: aquamarine; */
+   
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 0px 20px;
+}
 

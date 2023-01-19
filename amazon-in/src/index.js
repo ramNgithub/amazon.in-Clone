@@ -1,38 +1,19 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import Home from "./Components/Pages/home/Home";
-import Login from "./Components/Pages/login/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import List from "./Components/Pages/list/List";
-import Single from "./Components/Pages/single/Single";
-import New from "./Components/Pages/new/New";
-// import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    {/* <Routes>
-      <Route path="/">
-        <Route index element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="users">
-          <Route index element={<List />} />
-          <Route path=":userId" element={<Single />} />
-          <Route path="new" element={<New />} />
-        </Route>
+	<BrowserRouter>
+		<ChakraProvider>
+			<App />
+		</ChakraProvider>
+	</BrowserRouter>
 
-        <Route path="products">
-          <Route index element={<List />} />
-          <Route path=":productId" element={<Single />} />
-          <Route path="new" element={<New />} />
-        </Route>
-      </Route>
-    </Routes> */}
-    <App />
-  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
