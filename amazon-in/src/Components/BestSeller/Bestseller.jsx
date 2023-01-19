@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState , useEffect } from 'react'
 import "./BestSeller.css";
+import axios from "axios";
 import ProductCard from './ProductCard';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -24,6 +25,55 @@ const responsive = {
   }
 };
 const Bestseller = () => {
+
+  const [bags , setBags] = useState([]);
+  const [watches , setWatches] = useState([]);
+  const [shoes , setShoes] = useState([]);
+  const [smartPhones , setSmartPhones] = useState([]);
+  const [laptops , setLpatops] = useState([]);
+  const [skincare , setSkincare] = useState([]);
+  const getBags = () =>{
+    return axios.get(`https://dummyjson.com/products/category/womens-bags`);
+  }
+  const getWatches = () =>{
+    return axios.get(`https://dummyjson.com/products/category/mens-watches`);
+  }
+  const getSmartPhones = () =>{
+    return axios.get(`https://dummyjson.com/products/category/smartphones`);
+  }
+  const getShoes = () =>{
+    return axios.get(`https://dummyjson.com/products/category/mens-shoes`);
+  }
+  const getLaptops = () =>{
+    return axios.get(`https://dummyjson.com/products/category/laptops`);
+  }
+  const getSkinCare = () =>{
+    return axios.get(`https://dummyjson.com/products/category/skincare`);
+  }
+
+  useEffect(()=>{
+    getBags().then((res)=>{
+      setBags(res.data.products);
+    });
+
+    getWatches().then((res)=>{
+      setWatches(res.data.products)
+    });
+    getSmartPhones().then((res)=>{
+      setSmartPhones(res.data.products)
+    });
+    getShoes().then((res)=>{
+      setShoes(res.data.products)
+    });
+    getLaptops().then((res)=>{
+      setLpatops(res.data.products)
+    });
+    getSkinCare().then((res)=>{
+      setSkincare(res.data.products)
+    });
+  },[])
+
+  // console.log(bags.products)
   return (
     <>
     <div className='Header'>
@@ -72,51 +122,37 @@ const Bestseller = () => {
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-            </Carousel>;
+              {bags.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+
+            </Carousel>
 
           </div>
         </div>
         <div>
           <div>
-           <p> Bestsellers in Video Games </p>
+           <p> Bestsellers in Smartphones </p>
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-            </Carousel>;
+            {smartPhones.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+            </Carousel>
 
           </div>
         </div>
         <div>
           <div>
-           <p> Bestsellers in Music </p>
+           <p> Bestsellers in Shoes </p>
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-            </Carousel>;
+            {shoes.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+            </Carousel>
 
           </div>
         </div>
@@ -126,33 +162,23 @@ const Bestseller = () => {
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-            </Carousel>;
+            {laptops.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+            </Carousel>
 
           </div>
         </div>
         <div>
           <div>
-           <p> Bestsellers in Gift Cards </p>
+           <p> Bestsellers in Skincare </p>
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-            </Carousel>;
+            {skincare.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+            </Carousel>
 
           </div>
         </div>
@@ -162,14 +188,10 @@ const Bestseller = () => {
           </div>
           <div className='slider'>
             <Carousel responsive={responsive}>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
-              <div><ProductCard/></div>
+            {watches.map((el)=>(
+                    <div key={el.id}><ProductCard {...el}/></div>
+              ))}
+            
             </Carousel>;
 
           </div>
