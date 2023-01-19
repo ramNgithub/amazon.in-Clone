@@ -1,0 +1,29 @@
+.sidebar{
+    /* background-color: aqua; */
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.top{
+    /* background-color: brown; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.center{
+    padding-left: 10px;
+}
+.center ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
