@@ -1,13 +1,7 @@
-.container{
-    width: 99%;
-    height: auto;
-    margin: auto;
-    /* border: 2px solid red; */
-    margin-top: -230px;
-}
 
 .childOne{
-    width: 100%;
+    width: 98.6%;
+    margin: auto;
     height: 460px;
     /* border: 2px solid blue; */
     display: flex;
@@ -59,5 +53,40 @@
 }
 .childTwo>p{
     color: blue;
+    cursor: pointer;
+}
+
+.emiCardBanner{
+    /* border: solid; */
+    height: 350px;
+    margin: auto;
+    margin-top: 27px;
+    width: 98.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   cursor: pointer;
+}
+.greatDealsMobile{
+    /* border: solid; */
+    width: 98%;
+    margin: auto;
+    height: 280px;
+    margin-top: 17px;
+    padding: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   
+}
+.greatDealsMobile>h1{
+    font-size: 25px;
+    margin-top: 6px;
+    margin-left: 10px ;
+}
+.greatDealsMobileImg{
+    display: flex;
+    
+}
+.imgaes{
     cursor: pointer;
 }
