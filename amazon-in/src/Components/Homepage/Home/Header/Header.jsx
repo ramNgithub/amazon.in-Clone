@@ -104,15 +104,15 @@ const Header = () => {
                     <p>See all offers</p>
             </div>
             <div className={style.childTwo}>
-                <h1 className={style.childTwoHeading}>Starting ₹199 | Men's fashion</h1>
+                <h1 className={style.childTwoHeading}>Latest and upcoming launches</h1>
                     <div className={style.childThree}>
                         <div className={style.chidFour}>
                             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <p>iQOO 11 5G:Startin <br />₹59,999</p>
                         </div>
                         <div className={style.chidFour}>
                             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <p>Redmi Note 12 5G: <br />Starting ₹17,999</p>
                         </div>
                         <div className={style.chidFour}>
                             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
