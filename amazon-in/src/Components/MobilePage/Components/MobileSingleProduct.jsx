@@ -50,6 +50,7 @@ const MobileSingleProduct = () => {
 				boxShadow={"base"}
 				cursor="pointer"
 				bgColor={"#fff"}
+				flexDir={["column", "column", "row", "row"]}
 			>
 				<Center flex={1}>
 					<Img
