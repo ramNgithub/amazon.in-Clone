@@ -29,8 +29,7 @@ const MainRoutes = () => {
         <Route path="/mobile" element={<MobilePage />} />
 
         <Route path="/bestseller" element={<Bestseller />} />
-		<Route path="/admin" element={<Home />} />
-
+        <Route path="/admin" element={<Home />} />
       </Routes>
     </div>
   );
