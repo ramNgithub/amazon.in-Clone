@@ -6,6 +6,7 @@
 			"brand": "DISCOUNT PROMOS",
 			"rating": 3,
 			"reviewsCount": 16,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71T32m1w-9L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1845
 		},
@@ -15,6 +16,7 @@
 			"brand": "Redmi",
 			"rating": 4,
 			"reviewsCount": 6868,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71flXufDnbL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 24299
 		},
@@ -24,15 +26,17 @@
 			"brand": "SanDisk",
 			"rating": 5,
 			"reviewsCount": 966,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61QkS94bG0L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 222
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"title": "JBL Flip 4, Black - Waterproof, Portable & Durable Bluetooth Speaker - Up to 12 Hours of Wireless Streaming - Includes Noise-Cancelling Speakerphone, Voice Assistant & JBL Connect+",
 			"brand": "JBL",
 			"rating": 5,
 			"reviewsCount": 4337,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61d5F64UDpL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 338
 		},
@@ -42,15 +46,17 @@
 			"brand": "DJI",
 			"rating": 3,
 			"reviewsCount": 92626,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61XzFY3sZRL.__AC_SX300_SY300_QL70_ML2_.jpg",
 			"price": 1632
 		},
 		{
-			"id": 2,
+			"id": 5,
 			"title": "SENNHEISER HD 450BT Bluetooth 5.0 Wireless Headphone with Active Noise Cancellation - 30-Hour Battery Life, USB-C Fast Charging, Virtual Assistant Button, Foldable - Black",
 			"brand": "Sennheiser Consumer Audio",
 			"rating": 3,
 			"reviewsCount": 88,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71z97HfSZxS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1736
 		},
@@ -60,6 +66,7 @@
 			"brand": "JBL",
 			"rating": 3,
 			"reviewsCount": 388,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71Qp+U6qLJL._AC_SY300_SX300_.jpg",
 			"price": 802
 		},
@@ -69,15 +76,17 @@
 			"brand": "Redmi",
 			"rating": 1,
 			"reviewsCount": 236,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 8999
 		},
 		{
 			"id": 45,
 			"title": "OPPO A31 (Mystery Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-			"brand": "OPPO",
+			"brand": "oppo",
 			"rating": 5,
 			"reviewsCount": 785,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71KCwNV6MuL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 49199
 		},
@@ -87,6 +96,7 @@
 			"brand": "Status",
 			"rating": 4,
 			"reviewsCount": 917,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61FpcFsTg6L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1988
 		},
@@ -96,6 +106,7 @@
 			"brand": "Oneplus",
 			"rating": 2,
 			"reviewsCount": 7865,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61mIUCd-37L._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 95199
 		},
@@ -105,6 +116,7 @@
 			"brand": "Amazon Renewed",
 			"rating": 5,
 			"reviewsCount": 5597,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71lj9Fdeq0L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 821
 		},
@@ -114,6 +126,7 @@
 			"brand": "Bose",
 			"rating": 5,
 			"reviewsCount": 91,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/610DtEDib2L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1264
 		},
@@ -123,6 +136,7 @@
 			"brand": "Bose",
 			"rating": 5,
 			"reviewsCount": 80,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71we5E107KL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
 			"price": 864
 		},
@@ -132,6 +146,7 @@
 			"brand": "Redmi",
 			"rating": 4,
 			"reviewsCount": 8,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81UmTnrBDSL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 46599
 		},
@@ -141,6 +156,7 @@
 			"brand": "Google",
 			"rating": 3,
 			"reviewsCount": 5628,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61JWmBV95jL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1450
 		},
@@ -150,6 +166,7 @@
 			"brand": "Redmi",
 			"rating": 2,
 			"reviewsCount": 76867,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81T4O-rEI+L._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 12999
 		},
@@ -159,6 +176,7 @@
 			"brand": "SHOKZ",
 			"rating": 1,
 			"reviewsCount": 70433,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51z-rf7XIjL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1617
 		},
@@ -168,6 +186,7 @@
 			"brand": "UGREEN",
 			"rating": 5,
 			"reviewsCount": 73,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51CwCft1uFL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 3454
 		},
@@ -177,6 +196,7 @@
 			"brand": "Tonve",
 			"rating": 4,
 			"reviewsCount": 893,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71N-mXtgrCL.__AC_SX300_SY300_QL70_ML2_.jpg",
 			"price": 95
 		},
@@ -186,6 +206,7 @@
 			"brand": "Redmi",
 			"rating": 3,
 			"reviewsCount": 966,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/911TJ1CDbLL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 29699
 		},
@@ -195,6 +216,7 @@
 			"brand": "Jabra",
 			"rating": 4,
 			"reviewsCount": 2033,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61XSbhejsWL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1213
 		},
@@ -204,6 +226,7 @@
 			"brand": "SHOKZ",
 			"rating": 3,
 			"reviewsCount": 59923,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/5196E9KgDmL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1004
 		},
@@ -213,6 +236,7 @@
 			"brand": "Redmi",
 			"rating": 5,
 			"reviewsCount": 6786,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71kVEmAMyEL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 35199
 		},
@@ -222,8 +246,8 @@
 			"brand": "Amazon Renewed",
 			"rating": 2,
 			"reviewsCount": 64,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61WnTqb1MrL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-
 			"price": 877
 		},
 		{
@@ -232,6 +256,7 @@
 			"brand": "Skullcandy",
 			"rating": 3,
 			"reviewsCount": 631,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51IpO5fQ31L.__AC_SY300_SX300_QL70_FMwebp_.jpg",
 			"price": 1149
 		},
@@ -241,6 +266,7 @@
 			"brand": "Redmi",
 			"rating": 3,
 			"reviewsCount": 876,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81UT07JsBqL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 50599
 		},
@@ -250,6 +276,7 @@
 			"brand": "EINOVA",
 			"rating": 1,
 			"reviewsCount": 3751,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51r8wl1lENL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 68
 		},
@@ -259,6 +286,7 @@
 			"brand": "Bose",
 			"rating": 3,
 			"reviewsCount": 79237,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51P0D-ZgyVL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1522
 		},
@@ -268,6 +296,7 @@
 			"brand": "Diykitpl",
 			"rating": 1,
 			"reviewsCount": 46,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/718pj9A9OQL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 174
 		},
@@ -277,6 +306,7 @@
 			"brand": "SanDisk",
 			"rating": 1,
 			"reviewsCount": 631,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/716kSUlHouL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 7865
 		},
@@ -286,15 +316,17 @@
 			"brand": "Redmi",
 			"rating": 4,
 			"reviewsCount": 6876,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81E8fhm0dcL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 34299
 		},
 		{
 			"id": 23,
 			"title": "SAMSUNG Galaxy Buds 2 Pro True Wireless Bluetooth Earbuds w/ Noise Cancelling, Hi-Fi Sound, 360 Audio, Comfort Ear Fit, HD Voice, Conversation Mode, IPX7 Water Resistant, US Version, Graphite",
-			"brand": "SAMSUNG",
+			"brand": "samsung",
 			"rating": 5,
 			"reviewsCount": 818,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61Qqg+T8nsL._AC_SX300_SY300_.jpg",
 			"price": 1734
 		},
@@ -304,6 +336,7 @@
 			"brand": "Beats",
 			"rating": 4,
 			"reviewsCount": 45,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51bRSWrEc7S.__AC_SY445_SX342_QL70_FMwebp_.jpg",
 			"price": 691
 		},
@@ -313,15 +346,17 @@
 			"brand": "FOOBONG",
 			"rating": 3,
 			"reviewsCount": 96354,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71naavSxQRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 163
 		},
 		{
 			"id": 52,
 			"title": "OPPO A74 5G (Fluid Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-			"brand": "OPPO",
+			"brand": "oppo",
 			"rating": 1,
 			"reviewsCount": 678,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71poFSdDs5S._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 53199
 		},
@@ -331,6 +366,7 @@
 			"brand": "Amazon Renewed",
 			"rating": 5,
 			"reviewsCount": 513,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/71bhWgQK-cL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1737
 		},
@@ -340,6 +376,7 @@
 			"brand": "Oladance",
 			"rating": 1,
 			"reviewsCount": 2967,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51T1vDdI7SL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 174
 		},
@@ -349,6 +386,7 @@
 			"brand": "Bose",
 			"rating": 1,
 			"reviewsCount": 5,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61v+-9dV4PL._AC_SY300_SX300_.jpg",
 			"price": 1737
 		},
@@ -358,15 +396,17 @@
 			"brand": "Poly (Plantronics + Polycom)",
 			"rating": 3,
 			"reviewsCount": 135,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61XDRZ+3tIL._AC_SY300_SX300_.jpg",
 			"price": 691
 		},
 		{
 			"id": 42,
 			"title": "Tecno Spark 9 (Infinity Black, 6GB RAM,128GB Storage) | 11GB Expandable RAM | Helio G37 Gaming Processor",
-			"brand": "Tecno",
+			"brand": "tecno",
 			"rating": 5,
 			"reviewsCount": 8563,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/91c4uO7vK+L._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 50399
 		},
@@ -376,6 +416,7 @@
 			"brand": "Skullcandy",
 			"rating": 1,
 			"reviewsCount": 482,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81qivz4aUEL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 495
 		},
@@ -385,6 +426,7 @@
 			"brand": "Sony",
 			"rating": 4,
 			"reviewsCount": 8757,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51JnfYw9-tL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 
 			"price": 1068
@@ -395,6 +437,7 @@
 			"brand": "realme",
 			"rating": 2,
 			"reviewsCount": 676,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81QqVNKWtML._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 84299
 		},
@@ -404,6 +447,7 @@
 			"brand": "Redmi",
 			"rating": 3,
 			"reviewsCount": 8678,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81BxHYjeA2L._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 75799
 		},
@@ -413,15 +457,17 @@
 			"brand": "Fender",
 			"rating": 1,
 			"reviewsCount": 815,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61FdyRvpzpL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1395
 		},
 		{
 			"id": 33,
 			"title": "SAMSUNG Galaxy Buds 2 True Wireless Earbuds Noise Cancelling Ambient Sound Bluetooth Lightweight Comfort Fit Touch Control US Version, Graphite",
-			"brand": "SAMSUNG",
+			"brand": "samsung",
 			"rating": 2,
 			"reviewsCount": 54,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51O0iIuohnL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
 			"price": 1545
 		},
@@ -431,6 +477,7 @@
 			"brand": "hohem",
 			"rating": 4,
 			"reviewsCount": 5466,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61Byjkg0ZhL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 138
 		},
@@ -440,6 +487,7 @@
 			"brand": "Sennheiser Consumer Audio",
 			"rating": 5,
 			"reviewsCount": 6585,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/8182xOzfS2L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1632
 		},
@@ -449,6 +497,7 @@
 			"brand": "Jabra",
 			"rating": 4,
 			"reviewsCount": 6,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/817+l+xkusL._AC_SY300_SX300_.jpg",
 			"price": 768
 		},
@@ -458,15 +507,17 @@
 			"brand": "Soundcore",
 			"rating": 1,
 			"reviewsCount": 3525,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/51zqZRMrWgL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1313
 		},
 		{
 			"id": 38,
 			"title": "SAMSUNG Galaxy Buds Pro, Bluetooth Earbuds, True Wireless, Noise Cancelling, Charging Case, Quality Sound, Water Resistant, Phantom Black (US Version)",
-			"brand": "SAMSUNG",
+			"brand": "samsung",
 			"rating": 2,
 			"reviewsCount": 695,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/719p0eyZiSL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
 			"price": 81
 		},
@@ -476,33 +527,37 @@
 			"brand": "Amazon Renewed",
 			"rating": 4,
 			"reviewsCount": 685,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/41XjE57VLvL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 2934
 		},
 		{
 			"id": 40,
 			"title": "Samsung Galaxy Buds Live, Wireless Earbuds w/Active Noise Cancelling, Mystic Black, International Version",
-			"brand": "SAMSUNG",
+			"brand": "samsung",
 			"rating": 3,
 			"reviewsCount": 26,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/314gylSKWPL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1362
 		},
 		{
 			"id": 41,
 			"title": "SAMSUNG Galaxy Buds Live True Wireless Earbuds US Version Active Noise Cancelling Wireless Charging Case Included, Mystic Black",
-			"brand": "SAMSUNG",
+			"brand": "samsung",
 			"rating": 5,
 			"reviewsCount": 35,
+			"category": "accessories",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/61rLO8WiDTL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
 			"price": 1770
 		},
 		{
 			"id": 51,
 			"title": "Samsung Galaxy M13 (Aqua Green, 4GB, 64GB Storage) | 6000mAh Battery | Upto 8GB RAM with RAM Plus",
-			"brand": "Samsung",
+			"brand": "samsung",
 			"rating": 4,
 			"reviewsCount": 78686,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81-fFXQdPTL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 34599
 		},
@@ -512,6 +567,7 @@
 			"brand": "realme",
 			"rating": 1,
 			"reviewsCount": 885,
+			"category": "smartphones",
 			"thumbnailImage": "https://m.media-amazon.com/images/I/81HJ4pkOsiL._AC_UY436_FMwebp_QL65_.jpg",
 			"price": 80899
 		}

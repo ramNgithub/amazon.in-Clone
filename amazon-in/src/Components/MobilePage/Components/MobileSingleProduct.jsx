@@ -4,9 +4,7 @@ import {
 	Center,
 	Flex,
 	Heading,
-	Highlight,
 	Img,
-	SimpleGrid,
 	Stack,
 	Text,
 } from "@chakra-ui/react";
@@ -41,9 +39,8 @@ const MobileSingleProduct = () => {
 			<Navbar />
 			<Flex
 				className={styles.Product__grid}
-				w={["100%", "100%", "100%", "100%", "1100px"]}
-				mt={4}
 				marginInline="auto"
+				mt={4}
 				p={4}
 				gap={4}
 				borderRadius={"lg"}
