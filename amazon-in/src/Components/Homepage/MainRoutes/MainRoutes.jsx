@@ -8,18 +8,20 @@ import { auth } from "../firebase";
 import Homepage from "../Home/Homepage";
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
+import Home from "../../Pages/home/Home";
 
 const MainRoutes = () => {
-	const [userName, setuserName] = useState("");
-	useEffect(() => {
-		auth.onAuthStateChanged(user => {
-			if (user) {
-				setuserName(user.displayName);
-			} else {
-				setuserName("");
-			}
-		});
-	}, []);
+  const [userName, setuserName] = useState("");
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        setuserName(user.displayName);
+      } else {
+        setuserName("");
+      }
+    });
+  }, []);
+
 
 	return (
 		<div>
@@ -44,9 +46,11 @@ const MainRoutes = () => {
 					}
 				/>
 				<Route path="/bestseller" element={<Bestseller />} />
+        <Route path="/admin" element={<Home />} />
 			</Routes>
 		</div>
 	);
+
 };
 
 export default MainRoutes;
