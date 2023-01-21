@@ -1,0 +1,61 @@
+.featured {
+  flex: 3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+.bottom {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.featuredChart {
+  width: 100px;
+  height: 100px;
+}
+.amount {
+  font-size: 30px;
+}
+.desc {
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.summary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item {
+  text-align: center;
+}
+.itemTitle {
+  font-size: 14px;
+  color: gray;
+}
+.itemResult {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.positive{
+  color: green;
+}
+.negative{
+  color: red;
+}
