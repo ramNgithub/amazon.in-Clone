@@ -44,7 +44,7 @@ const MainRoutes = () => {
 							<MobileSingleProduct />
 						</ChakraProvider>
 					}
-				/>
+				/> 
 				<Route path="/bestseller" element={<Bestseller />} />
         <Route path="/admin" element={<Home />} />
 			</Routes>
