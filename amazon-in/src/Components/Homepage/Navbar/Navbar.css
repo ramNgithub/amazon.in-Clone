@@ -159,3 +159,19 @@
     padding: 0px 20px;
 }
 
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .nav-main-div{
+        width: 100%;
+        background-color: black;
+        height: 250px;
+        display: flex;
+    }
+    .nav-search-bar{
+        padding: 10px;
+        font-size: 18px;
+        width: 90%;
+        margin-left: 20px;
+        border-radius: 5px 0px 0px 5px;
+    }
+  }
