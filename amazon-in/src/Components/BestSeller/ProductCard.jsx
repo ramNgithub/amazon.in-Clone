@@ -7,7 +7,8 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const ProductCard = (el) => {
     const handleClick = (el) =>{
-        localStorage.setItem("product",JSON.stringify(el))
+        localStorage.setItem("product",JSON.stringify(el));
+        
     }
   return (
     <div className='card' onClick={()=>handleClick(el)}>
