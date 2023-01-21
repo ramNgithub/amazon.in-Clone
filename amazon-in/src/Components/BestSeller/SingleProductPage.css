@@ -1,0 +1,41 @@
+.singleProduct{
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+}
+.left{
+    /* border: 1px solid red; */
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left>img{
+    width: 80%;
+}
+.left>img:hover{
+    /* border: 1px solid black; */
+    width: 85%;
+}
+.right{
+    width: 50%;
+    padding: 5%;
+}
+.right>h2+button{
+    background-color: #ffd814;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right>button+button{
+    background-color: #ffa41c;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
