@@ -1,7 +1,9 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import MobilePage from "../../MobilePage/Components/MobilePage";
 import Bestseller from "../../BestSeller/Bestseller";
+import MobilePage from "../../MobilePage/Components/MobilePage";
+import MobileSingleProduct from "../../MobilePage/Components/MobileSingleProduct";
 import { auth } from "../firebase";
 import Homepage from "../Home/Homepage";
 import Login from "../Login/Login";
@@ -20,19 +22,35 @@ const MainRoutes = () => {
     });
   }, []);
 
-  return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Homepage name={userName} />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/mobile" element={<MobilePage />} />
 
-        <Route path="/bestseller" element={<Bestseller />} />
+	return (
+		<div>
+			<Routes>
+				<Route path="/" element={<Homepage name={userName} />} />
+				<Route path="/login" element={<Login />} />
+				<Route path="/signup" element={<Signup />} />
+				<Route
+					path="/mobile"
+					element={
+						<ChakraProvider>
+							<MobilePage />
+						</ChakraProvider>
+					}
+				/>
+				<Route
+					path="/mobile/:id"
+					element={
+						<ChakraProvider>
+							<MobileSingleProduct />
+						</ChakraProvider>
+					}
+				/>
+				<Route path="/bestseller" element={<Bestseller />} />
         <Route path="/admin" element={<Home />} />
-      </Routes>
-    </div>
-  );
+			</Routes>
+		</div>
+	);
+
 };
 
 export default MainRoutes;

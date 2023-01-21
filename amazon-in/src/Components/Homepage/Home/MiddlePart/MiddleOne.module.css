@@ -1,0 +1,83 @@
+.SingleCard{
+    position: relative;
+    /* width: 300px;
+    height: 350px;
+    
+    padding: 10px;
+    text-align: left; */
+    /* border: 2px solid red;  */
+    height: 350px;
+   margin: 5%;
+   cursor: pointer;
+   
+}
+.SingleCard>img{
+    
+    width: 215px;
+    height: 215px;
+    margin-left: 55px;
+}
+.SingleCard>div{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+.bestDealDiv{
+    
+        /* border: 1px solid blue; */
+        /* margin-left: 10%; */
+        width: 98%;
+        margin: auto;
+        margin-top: 50px;
+        height: auto;
+ 
+}
+.mainDiv>h1{
+ margin-top: 50px;
+ margin-left: 25px;
+ margin-bottom: -50px;
+}
+/* .mainDiv{
+    border: solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+.SingleCard>p{
+color: rgb(30, 209, 209);
+}
+.SingleCard>p:hover{
+    color: black;
+}
+.SingleForUnderfourNine{
+    /* border: solid; */
+    width: 200px;
+    height: 200px;
+}
+.mainDivOne{
+   padding: 5px ;
+   padding-bottom: 20px;
+    /* border: solid red; */
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.SingleForUnderfourNine>img{
+    cursor: pointer;
+  width: 200px;
+  height: 100%;
+}
+.bestDealDivOne{
+    margin-left: 20px;
+}
+.mainDivOne{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mainDivOne>h1{
+    margin-left: 10px;
+}
