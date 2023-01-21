@@ -27,7 +27,7 @@ function Navbar({username}) {
    return (
     <div className='nav-main-div'>
             <div>
-                <img className='ShopBag-logo' src={logo} alt="amazone-logo"/>
+               <Link to="/"> <img className='ShopBag-logo' src={logo} alt="amazone-logo"/></Link>
             </div>
          
        <div className='nav-main-div-main'>
@@ -64,7 +64,9 @@ function Navbar({username}) {
                     </Link>
                 </div>
                 <div className='nav-main-div-two-elements'>
+                  <Link to="/mobile" className='bestSeller'>
                     <p>Mobiles</p>
+                  </Link>
                 </div>
                 <div className='nav-main-div-two-elements'>
                     <p>Today's Deals</p>

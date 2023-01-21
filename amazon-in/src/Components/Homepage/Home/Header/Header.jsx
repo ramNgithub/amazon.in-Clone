@@ -107,42 +107,42 @@ const Header = () => {
                 <h1 className={style.childTwoHeading}>Latest and upcoming launches</h1>
                     <div className={style.childThree}>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/JanArt23/desktopQC/D68361814_INWLD_JanArt_PC_QuadCard_186x116._SY116_CB615741130_.jpg" alt="Not-Found" />
                             <p>iQOO 11 5G:Startin <br />₹59,999</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/JanArt23/desktopQC/D68361814_INWLD_JanArt_PC_QuadCard_186x116_2._SY116_CB615741130_.jpg" alt="Not-Found" />
                             <p>Redmi Note 12 5G: <br />Starting ₹17,999</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/JanArt23/desktopQC/D68361814_INWLD_JanArt_PC_QuadCard_186x116_3._SY116_CB615741130_.jpg" alt="Not-Found" />
+                            <p>Samsung Galaxy M04 5G: <br />Starting ₹9,499</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/JanArt23/desktopQC/D68361814_INWLD_JanArt_PC_QuadCard_186x116_4._SY116_CB615741130_.jpg" alt="Not-Found" />
+                            <p>Explore all new launches</p>
                         </div>
                     </div>
                     <p>See all offers</p>
             </div>
             <div className={style.childTwo}>
-                <h1 className={style.childTwoHeading}>Starting ₹199 | Men's fashion</h1>
+                <h1 className={style.childTwoHeading}>Up to 65% off | Appliances for your home</h1>
                     <div className={style.childThree}>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/JanART23/Hero/Updated/04-MWO-PC-QC-1x._SY116_CB615774489_.jpg" alt="Not-Found" />
+                            <p>Air conditioners</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="Not-Found" />
+                            <p>Refrigerators</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="Not-Found" />
+                            <p>Microwaves</p>
                         </div>
                         <div className={style.chidFour}>
-                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                            <p>Clothing</p>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="Not-Found" />
+                            <p>Washing machines</p>
                         </div>
                     </div>
                     <p>See all offers</p>
@@ -152,23 +152,23 @@ const Header = () => {
 
         <div className={style.childOne}>
             <div className={style.childTwo}>
-                <h1 className={style.childTwoHeading}>Starting ₹199 | Men's fashion</h1>
+                <h1 className={style.childTwoHeading}>Revamp your home in style</h1>
                 <div className={style.childThree}>
                     <div className={style.chidFour}>
-                       <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                       <p>Clothing</p>
+                       <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg" alt="Not-Found" />
+                       <p>Bedsheets,curtains</p>
                     </div>
                     <div className={style.chidFour}>
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                        <p>Clothing</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg" alt="Not-Found" />
+                        <p>Home decoration</p>
                     </div>
                     <div className={style.chidFour}>
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                        <p>Clothing</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg" alt="Not-Found" />
+                        <p>Home storage</p>
                     </div>
                     <div className={style.chidFour}>
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/JanART/BTF/PCQC/M-clothing-186-116._SY116_CB615519226_.jpg" alt="Not-Found" />
-                        <p>Clothing</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg" alt="Not-Found" />
+                        <p>Lighting solutions</p>
                     </div>
                 </div>
                 <p>See all offers</p>
