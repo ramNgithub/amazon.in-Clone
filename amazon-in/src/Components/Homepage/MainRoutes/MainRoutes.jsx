@@ -10,6 +10,7 @@ import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
 import Home from "../../Pages/home/Home";
 import List from "../../Pages/list/List";
+import New from "../../Pages/new/New";
 const MainRoutes = () => {
   const [userName, setuserName] = useState("");
   useEffect(() => {
@@ -46,7 +47,8 @@ const MainRoutes = () => {
         />
         <Route path="/bestseller" element={<Bestseller />} />
         <Route path="/admin" element={<Home />} />
-        <Route path="/users" element={<List />} />
+        <Route path="/admin/users" element={<List />} />
+        <Route path="/admin/users/new" element={<New/>} />
       </Routes>
     </div>
   );

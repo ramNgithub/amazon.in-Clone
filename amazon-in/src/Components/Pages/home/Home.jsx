@@ -6,10 +6,11 @@ import Featured from "../../componentsAdmin/featured/Featured";
 import Chart from "../../componentsAdmin/chart/Chart";
 import Table from "../../componentsAdmin/table/Table";
 import "./home.css";
+// import "../..style/dark.css"
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home dark">
       <Sidebar />
       <div className="homeContainer">
         <Navbar />

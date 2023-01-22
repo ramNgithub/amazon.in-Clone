@@ -1,4 +1,4 @@
-.datatable{
+.datTable{
     height: 600px;
     padding: 20px;
     
@@ -29,4 +29,14 @@
 .passive{
     color: crimson;
     background-color: rgb(177, 131, 140);
+}
+.id{
+    width: 20px;
+    height: 10px;
+    margin: 5px 5px 5px 5px;
+    padding-right: 20px;
+}
+.view{
+    background-color: greenyellow;
+    color: green;
 }
