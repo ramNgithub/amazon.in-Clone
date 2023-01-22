@@ -14,6 +14,8 @@ import Cart from "../../BestSeller/Cart";
 import SingleProductPage from "../../BestSeller/SingleProductPage";
 import { Fashion } from "../../Fashion/Fashion";
 import { Women } from "../../Women/Women";
+import List from "../../Pages/list/List"
+import New from "../../Pages/new/New"
 
 const MainRoutes = () => {
   const [userName, setuserName] = useState("");
