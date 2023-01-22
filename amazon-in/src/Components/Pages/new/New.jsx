@@ -20,7 +20,7 @@ const New = () => {
 
   const handleAdd=async(e)=>{
     e.preventDefault();
-    alert("User added")
+    alert("User added Successfully")
     // toast({
     //   title: 'User Account created.',
     //   description: "We've created your user account for you.",
