@@ -1,7 +1,5 @@
-import { Flex, Heading } from "@chakra-ui/react";
-import axios from "axios";
+import { Flex} from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { useLocation, useSearchParams } from "react-router-dom";
 import Product from "./ProductCard";
 
 const productsArray = [
@@ -686,11 +684,8 @@ const productsArray = [
 ];
 
 const ProductsList = ({ sortBy, order, category }) => {
-	console.log("category:", category);
 	const [products, setProducts] = useState(productsArray);
 	const [filteredProducts, setFilteredProducts] = useState([]);
-	console.log("filteredProducts:", filteredProducts);
-	console.log("products:", products);
 
 	useEffect(() => {
 		if (category !== "") {
