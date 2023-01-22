@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import { useEffect } from 'react';
 import ProductCard from '../BestSeller/ProductCard';
+import Footer from '../Homepage/Home/Footer/Footer';
 import Navbar from '../Homepage/Navbar/Navbar'
 import "./LaunchPad.css";
 
@@ -58,7 +59,7 @@ const LaunchPad = () => {
               </div>
            </div>
         </div>
-      
+      <Footer/>
     </div>
   )
 }

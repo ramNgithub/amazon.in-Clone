@@ -41,10 +41,11 @@ function Navbar({username}) {
                 </div>
                 <button ><Link to="/signup" className='nav-acc-btn'>Account</Link></button> 
                 <button>Return <br/> & Order</button>
-                <div className='nav-cart'>
-                    <p>0</p>
+               <Link to="/cart"> <div className='nav-cart'>
+                    
                     <img src={cart} alt="Cart-icon" />
                 </div>
+                </Link>
                 <button onClick={handlesignout}>Signout</button>
             </div>
         

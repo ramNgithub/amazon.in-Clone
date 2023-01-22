@@ -9,6 +9,9 @@ import Homepage from "../Home/Homepage";
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
 import Home from "../../Pages/home/Home";
+import LaunchPad from "../../LaunchPad/LaunchPad";
+import Cart from "../../BestSeller/Cart";
+import SingleProductPage from "../../BestSeller/SingleProductPage"
 
 const MainRoutes = () => {
   const [userName, setuserName] = useState("");
@@ -46,6 +49,10 @@ const MainRoutes = () => {
 					}
 				/> 
 				<Route path="/bestseller" element={<Bestseller />} />
+				<Route path="/launchpad" element={<LaunchPad />} />
+				<Route path="/cart" element={<Cart />} />
+				<Route path="/singleproduct" element={<SingleProductPage />} />
+				
         <Route path="/admin" element={<Home />} />
 			</Routes>
 		</div>

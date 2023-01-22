@@ -4,6 +4,9 @@ import axios from "axios";
 import ProductCard from './ProductCard';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { Link } from 'react-router-dom';
+import Navbar from '../Homepage/Navbar/Navbar';
+import Footer from '../Homepage/Home/Footer/Footer';
 // import { Divider } from '@chakra-ui/react'
 const responsive = {
   superLargeDesktop: {
@@ -76,6 +79,7 @@ const Bestseller = () => {
   // console.log(bags.products)
   return (
     <>
+    <Navbar/>
     <div className='Header'>
        <p>Amazon Bestsellers</p>
        <p>Our most popular products based on sales. Updated frequently.</p>
@@ -83,7 +87,7 @@ const Bestseller = () => {
     <div className='Midpart'>
       <div>
         <h4>Any Department</h4>
-        <p>Amazon Launchpad</p>
+       <Link to="/launchpad"> <p>Amazon Launchpad</p></Link>
         <p>Amazon Renewed</p>
         <p>Apps for Android</p>
         <p>Baby Products</p>
@@ -204,6 +208,7 @@ const Bestseller = () => {
        
       </div>
     </div>
+    <Footer/>
     </>
   )
 }
