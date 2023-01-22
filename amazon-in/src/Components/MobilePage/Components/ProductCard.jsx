@@ -1,9 +1,9 @@
 import { Button, Center, Flex, Img, Stack, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../Styles/Product.module.css";
+import styles from "../Styles/ProductCard.module.css";
 
-const Product = ({ product, category }) => {
+const ProductCard = ({ product, category }) => {
 	const { id, title, brand, thumbnailImage, rating, reviewsCount, price } =
 		product;
 
@@ -70,4 +70,4 @@ const Product = ({ product, category }) => {
 	);
 };
 
-export default Product;
+export default ProductCard;

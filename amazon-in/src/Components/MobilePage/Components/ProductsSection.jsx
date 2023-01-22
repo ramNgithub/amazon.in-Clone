@@ -1,13 +1,10 @@
-import {
-	Flex,
-	Select,
-	Stack,
-} from "@chakra-ui/react";
+import { Flex, Select, Stack } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import ProductsList from "./ProducstList";
 
-const ProductsSection = () => {
+const ProductsSection = ({ category }) => {
+	console.log("category prod sec:", category);
 	const [sortBy, setSortBy] = useState("");
 	const [order, setOrder] = useState("");
 
@@ -46,7 +43,7 @@ const ProductsSection = () => {
 					<option value="avgCustomerReview">Avg. customer review</option>
 				</Select>
 			</Flex>
-			<ProductsList sortBy={sortBy} order={order} />
+			<ProductsList sortBy={sortBy} order={order} category={category} />
 		</Stack>
 	);
 };

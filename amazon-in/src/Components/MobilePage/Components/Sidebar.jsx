@@ -1,28 +1,10 @@
 import { Checkbox, Divider, Heading, Stack } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+// import { useSearchParams } from "react-router-dom";
 import styles from "../Styles/Sidebar.module.css";
 
-const Sidebar = () => {
-	const [searchParams, setSearchParams] = useSearchParams();
-	const initialCategory = searchParams.getAll("category");
-	const [category, setCategory] = useState(initialCategory || []);
-
-	const handleFilter = e => {
-		let newCategory = [...category];
-		if (newCategory.includes(e.target.value)) {
-			newCategory.splice(newCategory.indexOf(e.target.value), 1);
-		} else {
-			newCategory.push(e.target.value);
-		}
-		setCategory(newCategory);
-	};
-
-	useEffect(() => {
-		const params = { category };
-		setSearchParams(params);
-	}, [category]);
-
+const Sidebar = ({ handleFilter, category }) => {
+	console.log("category:", category);
 	return (
 		<Stack
 			className={styles.sidebar__main}
@@ -45,14 +27,14 @@ const Sidebar = () => {
 				<Checkbox
 					onChange={handleFilter}
 					value="accessories"
-					isChecked={category.includes("accessories")}
+					isChecked={category === "accessories"}
 				>
 					Accessories
 				</Checkbox>
 				<Checkbox
 					onChange={handleFilter}
 					value="smartphones"
-					isChecked={category.includes("smartphones")}
+					isChecked={category === "smartphones"}
 				>
 					Smart phones
 				</Checkbox>
