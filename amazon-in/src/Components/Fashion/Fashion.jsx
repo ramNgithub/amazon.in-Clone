@@ -533,7 +533,7 @@ export const Fashion = () => {
           </Box>
           {/* 80%box end */}
         </Box>
-
+        {/* completed fashion page */}
         {/* write everything above this */}
       </Box>
     </div>
