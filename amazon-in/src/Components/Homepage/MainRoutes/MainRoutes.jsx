@@ -57,11 +57,12 @@ const MainRoutes = () => {
         <Route path="/fashion" element={
 		<ChakraProvider><Fashion />
 		</ChakraProvider>} />
-		
+
 		
 
 		
         <Route path="/women" element={
+			
 		<ChakraProvider>
 		<Women />
 		</ChakraProvider>
