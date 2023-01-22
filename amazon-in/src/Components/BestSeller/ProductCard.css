@@ -1,0 +1,46 @@
+
+.card{
+   /* border: 1px solid red; */
+   padding: 10px;
+   /* text-align: left; */
+   margin: 5%;
+   cursor: pointer;
+}
+.card>img{
+    /* border: 1px solid blue; */
+    width: 215px;
+    height: 215px;
+    text-align: center;
+}
+.card>div{
+    display: flex;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+.card>div>p{
+    color: #dc2626;
+}
+.card>p{
+   font-family:"Amazon Ember", Arial, sans-serif;;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   font-style: normal;
+   color: #008da3; 
+}
+.card>p:hover{
+    text-decoration: underline;
+    color: #c7511f ;
+}
+.card>button{
+    text-align: center;
+    padding: 6px 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    background-color: #ffd814;
+    cursor: pointer;
+}
