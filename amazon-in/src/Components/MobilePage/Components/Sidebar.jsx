@@ -1,6 +1,4 @@
 import { Checkbox, Divider, Heading, Stack } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-// import { useSearchParams } from "react-router-dom";
 import styles from "../Styles/Sidebar.module.css";
 
 const Sidebar = ({ handleFilter, category }) => {

@@ -693,23 +693,7 @@ const AllProducts = [
 ];
 
 const MobileSingleProduct = () => {
-	// const { id } = useParams();
 	const [product, setProduct] = useState(AllProducts);
-	// const [isLoading, setIsLoading] = useState(false);
-
-	// useEffect(() => {
-	// 	setIsLoading(true);
-	// 	axios(`http://localhost:8080/mobile/${id}`)
-	// 		.then(res => {
-	// 			setIsLoading(false);
-	// 			setProduct(res.data);
-	// 		})
-	// 		.catch(err => console.log("error in getting single product", err));
-	// }, []);
-
-	// if (isLoading) {
-	// 	return <Heading size="lg">Loading...</Heading>;
-	// }
 	const { title, brand, thumbnailImage, rating, reviewsCount, price } = product;
 
 	return (
