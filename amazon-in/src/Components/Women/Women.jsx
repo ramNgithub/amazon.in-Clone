@@ -10,6 +10,7 @@ import {
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ProductsMainContainer } from "../Fashion/ProductsMainContainer";
+import Navbar from "../Homepage/Navbar/Navbar";
 
 export const Women = () => {
   const responsive1 = {
@@ -54,6 +55,7 @@ export const Women = () => {
 
   return (
     <div>
+      <Navbar />
       <Box
         bg="white"
         boxShadow="xl"

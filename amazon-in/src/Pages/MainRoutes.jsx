@@ -5,8 +5,8 @@ import { Women } from "../Components/Women/Women";
 export const MainRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Fashion />}></Route>
-      <Route path="/women" element={<Women />}></Route>
+      {/* <Route path="/" element={<Fashion />}></Route>
+      <Route path="/women" element={<Women />}></Route> */}
     </Routes>
   );
 };

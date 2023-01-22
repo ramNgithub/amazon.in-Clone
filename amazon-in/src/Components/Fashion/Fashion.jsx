@@ -13,6 +13,7 @@ import "react-multi-carousel/lib/styles.css";
 import { MultiCarousel } from "./MultiCarousel";
 import { ProductsMainContainer } from "./ProductsMainContainer";
 import { Link } from "react-router-dom";
+import Navbar from "../componentsAdmin/navbar/Navbar";
 
 export const Fashion = () => {
   const responsive1 = {
@@ -57,6 +58,7 @@ export const Fashion = () => {
 
   return (
     <div>
+      <Navbar />
       <Box
         bg="white"
         boxShadow="xl"
