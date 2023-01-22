@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import MiddleCenter from './MiddlePart/MidCenter/MiddleCenter'
 import MiddleOne from './MiddlePart/MiddleOne'
@@ -13,6 +14,8 @@ const Homepage = (props) => {
         <MiddleOne/>
         <MiddleCenter/>
         <MiddleLower/>
+        <Footer/>
+
     </div>
   )
 }
