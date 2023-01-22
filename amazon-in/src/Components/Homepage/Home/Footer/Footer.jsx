@@ -5,6 +5,7 @@ import logo from "../../Homepageimgs/ShopBaglogo1.png"
 
 
 const Footer = () => {
+    
   return (
     <div>
         <div className={style.footMain}>
