@@ -516,14 +516,6 @@
   ],
   "users": [
     {
-      "id": 7,
-      "username": "Clifford",
-      "img": "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      "email": "7snow@gmail.com",
-      "status": "passive",
-      "age": 44
-    },
-    {
       "id": 8,
       "username": "Frances",
       "img": "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -575,15 +567,6 @@
       "age": 19
     },
     {
-      "id": 14,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUepc18qFZKUWWOpeRyesJDrriB9jvEunjA&usqp=CAU",
-      "email": "Julianne.OConner@kory.org",
-      "status": "pending",
-      "age": 16
-    },
-    {
       "id": 15,
       "name": "Chelsey Dietrich",
       "username": "Kamren",
@@ -620,13 +603,12 @@
       "age": 28
     },
     {
-      "id": 19,
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUepc18qFZKUWWOpeRyesJDrriB9jvEunjA&usqp=CAU",
-      "email": "Chaim_McDermott@dana.io",
-      "status": "approved",
-      "age": 25
+      "username": "vcxsfd",
+      "name": "dfasdfsdfsadf",
+      "email": "fasd@gmail.com",
+      "status": "45",
+      "age": "45",
+      "id": 19
     }
   ]
 }

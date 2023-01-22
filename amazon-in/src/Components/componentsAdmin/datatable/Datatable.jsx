@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import { DataGrid } from "@mui/x-data-grid";
 import { Button, Flex } from "@chakra-ui/react";
 import axios from "axios";
@@ -8,20 +8,25 @@ import { useNavigate } from "react-router";
 const DataTable = () => {
   const [user, setUser] = React.useState([]);
   const navigate = useNavigate();
+  const [count,setCount]=useState(0)
 
   const getData = async () => {
-    let res = await axios.get("https://forserverjson.vercel.app/users");
+    let res = await axios.get(" http://localhost:8080/users");
     return res.data;
   };
 
   useEffect(() => {
     getData().then((res) => setUser(res));
+    // console.log(count);
   }, []);
 
   const handleDel = async (id) => {
+    //   let res=
     alert("User deleted");
-    await axios.delete(`https://forserverjson.vercel.app/users/${id}`);
-    window.location.reload();
+      await axios.delete(`http://localhost:8080/users/${id}`);
+    //   console.log(res)
+    // setCount((prevCount)=>prevCount+1)
+      window.location.reload();
   };
 
   const actionColumn = [
@@ -52,7 +57,7 @@ const DataTable = () => {
       /> */}
       {user.map((row) => {
         return (
-          <div>
+          <div key={row.id}>
             <p margin={"5px"}>ID-{row.id}</p>
             <p className="name">UserName-{row.username}</p>
             <img

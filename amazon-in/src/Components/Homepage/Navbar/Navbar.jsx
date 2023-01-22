@@ -44,14 +44,19 @@ function Navbar({ username }) {
             h={30}
             bg={"#F6AD55"}
           />
-          <div className="ind-flag-div">
+          {/* <div className="ind-flag-div">
             <img
               width={"20px"}
               src="https://www.seekpng.com/png/small/590-5909867_indian-flag-india-flag-icon-square.png"
               alt="flag"
             />
             <p>EN</p>
-          </div>
+          </div> */}
+           <button>
+            <Link to="/admin" className="nav-acc-btn">
+              Admin
+            </Link>
+          </button>
           <button>
             <Link to="/signup" className="nav-acc-btn">
               Account

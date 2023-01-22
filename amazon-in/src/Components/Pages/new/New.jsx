@@ -29,7 +29,7 @@ const New = () => {
     //   isClosable: true,
     // });
     const data={username,name,img,email,status,age};
-    await axios.post("https://forserverjson.vercel.app/users",data)
+    await axios.post("http://localhost:8080/users",data)
     navigate("/admin/users")
   }
 
