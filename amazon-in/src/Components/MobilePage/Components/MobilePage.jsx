@@ -1,10 +1,16 @@
 import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Homepage/Navbar/Navbar";
 import ProductsSection from "./ProductsSection";
 import Sidebar from "./Sidebar";
 
 const MobilePage = () => {
+	const [category, setCategory] = useState("");
+
+	const handleFilter = e => {
+		setCategory(e.target.value);
+	};
+
 	return (
 		<SimpleGrid bgColor={"gray.50"}>
 			{/* navbar goes here */}
@@ -17,10 +23,10 @@ const MobilePage = () => {
 				bgColor={"gray.50"}
 			>
 				<GridItem pt={4} pl={4}>
-					<Sidebar></Sidebar>
+					<Sidebar handleFilter={handleFilter} category={category} />
 				</GridItem>
 				<GridItem p={4}>
-					<ProductsSection></ProductsSection>
+					<ProductsSection category={category} />
 				</GridItem>
 			</Grid>
 		</SimpleGrid>
