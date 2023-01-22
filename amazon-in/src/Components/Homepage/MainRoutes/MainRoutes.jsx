@@ -11,7 +11,9 @@ import Signup from "../Signup/Signup";
 import Home from "../../Pages/home/Home";
 import LaunchPad from "../../LaunchPad/LaunchPad";
 import Cart from "../../BestSeller/Cart";
-import SingleProductPage from "../../BestSeller/SingleProductPage"
+import SingleProductPage from "../../BestSeller/SingleProductPage";
+import { Fashion } from "../../Fashion/Fashion";
+import { Women } from "../../Women/Women";
 
 const MainRoutes = () => {
   const [userName, setuserName] = useState("");
@@ -25,39 +27,39 @@ const MainRoutes = () => {
     });
   }, []);
 
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Homepage name={userName} />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route
+          path="/mobile"
+          element={
+            <ChakraProvider>
+              <MobilePage />
+            </ChakraProvider>
+          }
+        />
+        <Route
+          path="/mobile/:id"
+          element={
+            <ChakraProvider>
+              <MobileSingleProduct />
+            </ChakraProvider>
+          }
+        />
+        <Route path="/bestseller" element={<Bestseller />} />
+        <Route path="/launchpad" element={<LaunchPad />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/singleproduct" element={<SingleProductPage />} />
+        <Route path="/fashion" element={<Fashion />} />
+        <Route path="/women" element={<Women />} />
 
-	return (
-		<div>
-			<Routes>
-				<Route path="/" element={<Homepage name={userName} />} />
-				<Route path="/login" element={<Login />} />
-				<Route path="/signup" element={<Signup />} />
-				<Route
-					path="/mobile"
-					element={
-						<ChakraProvider>
-							<MobilePage />
-						</ChakraProvider>
-					}
-				/>
-				<Route
-					path="/mobile/:id"
-					element={
-						<ChakraProvider>
-							<MobileSingleProduct />
-						</ChakraProvider>
-					}
-				/> 
-				<Route path="/bestseller" element={<Bestseller />} />
-				<Route path="/launchpad" element={<LaunchPad />} />
-				<Route path="/cart" element={<Cart />} />
-				<Route path="/singleproduct" element={<SingleProductPage />} />
-				
         <Route path="/admin" element={<Home />} />
-			</Routes>
-		</div>
-	);
-
+      </Routes>
+    </div>
+  );
 };
 
 export default MainRoutes;
