@@ -164,13 +164,13 @@
     .nav-main-div{
         width: 100%;
         background-color: black;
-        height: 250px;
+        height: 150px;
         display: flex;
     }
     .nav-search-bar{
         padding: 10px;
         font-size: 18px;
-        width: 90%;
+        width: 40%;
         margin-left: 20px;
         border-radius: 5px 0px 0px 5px;
     }
