@@ -69,6 +69,8 @@ const MainRoutes = () => {
 		} />
        
         <Route path="/admin" element={<Home />} />
+        <Route path="/admin/users" element={<List />} />
+        <Route path="/admin/users/new" element={<New/>} />
       </Routes>
     </div>
   );
