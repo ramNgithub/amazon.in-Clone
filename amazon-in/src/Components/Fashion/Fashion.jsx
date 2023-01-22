@@ -13,7 +13,8 @@ import "react-multi-carousel/lib/styles.css";
 import { MultiCarousel } from "./MultiCarousel";
 import { ProductsMainContainer } from "./ProductsMainContainer";
 import { Link } from "react-router-dom";
-import Navbar from "../componentsAdmin/navbar/Navbar";
+import Navbar from "../Homepage/Navbar/Navbar";
+import Footer from "../Homepage/Home/Footer/Footer";
 
 export const Fashion = () => {
   const responsive1 = {
@@ -538,6 +539,7 @@ export const Fashion = () => {
         {/* completed fashion page */}
         {/* write everything above this */}
       </Box>
+      <Footer/>
     </div>
   );
 };

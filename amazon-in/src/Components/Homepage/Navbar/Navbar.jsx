@@ -61,7 +61,7 @@ function Navbar({ username }) {
             Return <br /> & Order
           </button>
           <Link to="/cart">
-            {" "}
+           
             <div className="nav-cart">
               <img src={cart} alt="Cart-icon" />
             </div>
@@ -98,11 +98,13 @@ function Navbar({ username }) {
           <div className="nav-main-div-two-elements">
             <p>Prime</p>
           </div>
+          <Link to="/fashion">
           <div className="nav-main-div-two-elements">
-            <Link to="/fashion">
+            
               <p>Fashion</p>
-            </Link>
+           
           </div>
+          </Link>
           <div className="nav-main-div-two-elements">
             <p>Amazon Pay</p>
           </div>

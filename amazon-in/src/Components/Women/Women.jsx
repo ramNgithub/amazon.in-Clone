@@ -11,6 +11,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ProductsMainContainer } from "../Fashion/ProductsMainContainer";
 import Navbar from "../Homepage/Navbar/Navbar";
+import Footer from "../Homepage/Home/Footer/Footer";
 
 export const Women = () => {
   const responsive1 = {
@@ -481,6 +482,8 @@ export const Women = () => {
           <ProductsMainContainer></ProductsMainContainer>
         </Box>
       </Box>
+
+      <Footer/>
     </div>
   );
 };

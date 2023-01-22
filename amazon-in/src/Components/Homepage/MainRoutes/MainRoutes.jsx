@@ -53,9 +53,19 @@ const MainRoutes = () => {
         <Route path="/launchpad" element={<LaunchPad />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/singleproduct" element={<SingleProductPage />} />
-        <Route path="/fashion" element={<Fashion />} />
-        <Route path="/women" element={<Women />} />
+		
+        <Route path="/fashion" element={
+		<ChakraProvider><Fashion />
+		</ChakraProvider>} />
+		
 
+		
+        <Route path="/women" element={
+		<ChakraProvider>
+		<Women />
+		</ChakraProvider>
+		} />
+       
         <Route path="/admin" element={<Home />} />
       </Routes>
     </div>
