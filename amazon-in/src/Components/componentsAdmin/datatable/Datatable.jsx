@@ -1,5 +1,5 @@
 import React from "react";
-import { DataGrid } from "@mui/x-data-grid";
+// import { DataGrid } from "@mui/x-data-grid";
 import { Button, Flex } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect } from "react";
@@ -10,7 +10,7 @@ const DataTable = () => {
   const navigate = useNavigate();
 
   const getData = async () => {
-    let res = await axios.get("http://localhost:8080/users");
+    let res = await axios.get("https://forserverjson.vercel.app/users");
     return res.data;
   };
 
@@ -20,7 +20,7 @@ const DataTable = () => {
 
   const handleDel = async (id) => {
     alert("User deleted");
-    await axios.delete(`http://localhost:8080/users/${id}`);
+    await axios.delete(`https://forserverjson.vercel.app/users/${id}`);
     window.location.reload();
   };
 

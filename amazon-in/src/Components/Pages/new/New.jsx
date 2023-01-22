@@ -10,7 +10,7 @@ import { useToast } from "@chakra-ui/react";
 
 const New = () => {
   const navigate=useNavigate();
-  const toast = useToast()
+  // const toast = useToast()
   const [username, setUsername] = React.useState();
   const [name, setName] = React.useState();
   const [img, setImg] = React.useState();
@@ -29,7 +29,7 @@ const New = () => {
     //   isClosable: true,
     // });
     const data={username,name,img,email,status,age};
-    await axios.post("http://localhost:8080/users",data)
+    await axios.post("https://forserverjson.vercel.app/users",data)
     navigate("/admin/users")
   }
 

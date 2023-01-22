@@ -19,6 +19,8 @@ const Cart = () => {
      let updatedcart =  cart.filter((el)=>{
         return el.id != id;
       });
+      setCount((prev)=>prev +1)
+
     //   console.log(updatedcart)
       localStorage.setItem("cart" , JSON.stringify(updatedcart));
     }
@@ -26,10 +28,11 @@ const Cart = () => {
     const handleCartclear = () =>{
         let cartAfterClearing = [];
         localStorage.setItem("cart" , JSON.stringify(cartAfterClearing));
+        setCount((prev)=>prev +1)
     }
    useEffect(()=>{
-    setCount(count +1)
-   },[cart])
+    setCount((prev)=>prev +1)
+   },[totalAmount])
    
   return (
     <>
@@ -76,5 +79,6 @@ const Cart = () => {
     </>
   )
 }
+
 
 export default Cart

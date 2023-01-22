@@ -15,8 +15,8 @@ const SingleProductPage = () => {
       alert("added to cart");
     }
     useEffect(()=>{
-       setSingleProduct(singleProduct+1);
-    },[newProduct])
+       setSingleProduct((prev)=>prev+1);
+    },[])
    return (
     <>
     <Navbar/>
