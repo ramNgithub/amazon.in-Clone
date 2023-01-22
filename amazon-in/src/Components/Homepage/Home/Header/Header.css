@@ -78,13 +78,13 @@
     margin-left: -20%;
   }
   
-   #radio3:checked ~ .first{
+   /* #radio3:checked ~ .first{
     margin-left: -40%;
   }
   
   #radio4:checked ~ .first{
     margin-left: -60%;
-  } 
+  }  */
   
   /*css for automatic navigation*/
   
@@ -114,12 +114,12 @@
   #radio2:checked ~ .navigation-auto .auto-btn2{
     background: #40D3DC;
   }
-  #radio3:checked ~ .navigation-auto .auto-btn3{
+  /* #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #40D3DC;
   }
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
-  }
+  } */
 /* } */
 
   /* @media All and (min-width: 767px) and (max-width: 1023) {

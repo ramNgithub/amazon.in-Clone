@@ -7,7 +7,7 @@ const Header = () => {
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
       counter++;
-      if(counter > 4){
+      if(counter > 2){
         counter = 1;
       }
     }, 5000);
@@ -19,8 +19,8 @@ const Header = () => {
         
         <input type="radio" name="radio-btn" id="radio1"/>
         <input type="radio" name="radio-btn" id="radio2"/>
-        <input type="radio" name="radio-btn" id="radio3"/>
-        <input type="radio" name="radio-btn" id="radio4"/>
+        {/* <input type="radio" name="radio-btn" id="radio3"/>
+        <input type="radio" name="radio-btn" id="radio4"/> */}
         
        
         <div className="slide first">
@@ -29,12 +29,12 @@ const Header = () => {
         <div className="slide">
           <img src="https://m.media-amazon.com/images/I/812phdLubGL._SX3000_.jpg"/>
         </div>
-        <div className="slide">
+        {/* <div className="slide">
           <img src="https://m.media-amazon.com/images/I/81rPAv-SglL._SX3000_.jpg"/>
         </div>
         <div className="slide">
           <img src="https://m.media-amazon.com/images/I/819I76oMubL._SX3000_.jpg"/>
-        </div>
+        </div> */}
         
         
         {/* <div className="navigation-auto">
