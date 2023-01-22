@@ -58,6 +58,7 @@ const MainRoutes = () => {
 		<ChakraProvider><Fashion />
 		</ChakraProvider>} />
 		
+		
 
 		
         <Route path="/women" element={
