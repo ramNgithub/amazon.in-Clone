@@ -50,19 +50,22 @@ const Cart = () => {
             
             :
            
-            <div>
-                <div className='table'>
-                    <p>image</p>
-                    <p>title</p>
-                    <p>price</p>
-                    <p>remove</p>
-                </div>
+            <div className='cartdiv'>
+               
             {cart.map((el , index)=>(
                 <div className='cartmap' key={el.id}>
+                    <div>
                     <img src={el.thumbnail} alt="" />
-                    <p>{el.title}</p>
-                    <h4>${el.price}.00</h4>
+                    </div>
+                    <div>
+                    <h3>{el.title}</h3>
+                    <p>{el.description}</p>
+                    <p>Brand: {el.brand}</p>
+                    <h4>PRICE: ${el.price}.00</h4>
+                    </div>
+                    <div>
                     <DeleteIcon onClick={()=>removeItem(el.id)} color="error"/>
+                    </div>
                 </div>
             ))}
             <div className='total'>
