@@ -7,6 +7,7 @@ Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington,[7] on 
 - [@abhayfaldu](https://github.com/abhayfaldu)
 - [@AsifShaikh01](https://github.com/AsifShaikh01)
 - [@owaisezarger](https://github.com/owaisezarger)
+- [@atheist31](https://github.com/atheist31)
 
 ## Tech Stack used
 - `REACT`
