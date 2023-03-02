@@ -1,0 +1,31 @@
+.new {
+    width: 100%;
+    display: flex;
+}
+.newContainer {
+    flex: 6;
+}
+.top{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding:10px;
+    margin: 20px;
+    
+}
+.bottom{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding:10px;
+    margin: 20px;
+    
+    display: flex;
+}
+.top >h1{
+    color: gray;
+    font-size: 20px;
+}
+.left{
+    flex: 1;
+    text-align: center;
+}
+.right{
+    flex: 2;
+}

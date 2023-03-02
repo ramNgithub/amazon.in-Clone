@@ -1,0 +1,42 @@
+.datTable{
+    height: 600px;
+    padding: 20px;
+    
+}
+.cellWithImg{
+    display: flex;
+    align-items: center;
+}
+.cellImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.cellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+}
+.active{
+    color: rgb(5, 77, 5);
+    background-color: rgb(130, 219, 130);
+}
+.pending{
+    color: rgb(95, 95, 9);
+    background-color: rgb(233, 233, 149);
+}
+.passive{
+    color: crimson;
+    background-color: rgb(177, 131, 140);
+}
+.id{
+    width: 20px;
+    height: 10px;
+    margin: 5px 5px 5px 5px;
+    padding-right: 20px;
+}
+.view{
+    background-color: greenyellow;
+    color: green;
+}

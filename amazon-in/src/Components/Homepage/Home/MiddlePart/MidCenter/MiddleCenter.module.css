@@ -1,0 +1,248 @@
+
+.childOne{
+    width: 98.6%;
+    margin: auto;
+    height: 460px;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.childTwo{
+    /* padding: 7px; */
+   padding: 0px 9px;
+   width:24%;
+   height: 99%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+   /* border: 2px solid black; */
+   margin-top: 16px;
+  
+   background-color: white;
+}
+.childTwoHeading{
+    font-size: 23px;
+    margin-left: 5px;
+    
+}
+.childThree{
+  
+  display: grid;
+  grid-template-columns: repeat(2,46%);
+  grid-template-rows: repeat(2,160px);
+  gap: 20px;
+  justify-content: space-evenly;
+  
+}
+
+/* .chidFour{
+    border: 2px solid red;
+} */
+.chidFour>img{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.chidFour>p{
+    margin-top: -3px;
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.childTwo>p{
+    color: blue;
+    cursor: pointer;
+}
+
+.emiCardBanner{
+    /* border: solid; */
+    height: 350px;
+    margin: auto;
+    margin-top: 27px;
+    width: 98.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   cursor: pointer;
+}
+.greatDealsMobile{
+    /* border: solid; */
+    width: 98%;
+    margin: auto;
+    height: 280px;
+    margin-top: 17px;
+    padding: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   
+}
+.greatDealsMobile>h1{
+    font-size: 25px;
+    margin-top: 6px;
+    margin-left: 10px ;
+}
+.greatDealsMobileImg{
+    display: flex;
+    
+}
+.imgaes{
+    cursor: pointer;
+}
+@media All and (max-width:359px){
+
+
+.emiCardBanner{
+    /* border: solid; */
+    height: 150px;
+    margin: auto;
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   cursor: pointer;
+}
+.emiCardBanner>img{
+    width: 358px;
+}
+.childOne{
+    width: 99%;
+    /* border: solid; */
+    height: 460px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    margin-bottom: 1530px;
+}
+.childOneA{
+    width: 99%;
+height: 460px;
+/* border: 2px solid blue; */
+display: grid;
+grid-template-columns: repeat(1,1fr);
+/* display: flex; */
+gap: 35px;
+margin-bottom: 1500px;
+/* justify-content: space-evenly; */
+}
+
+.childTwo{
+    /* padding: 7px; */
+   padding: 0px 9px;
+   width:100%;
+   height: 99%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   
+   /* border: 2px solid black; */
+   margin-top: 10px;
+   
+   background-color: white;
+   
+}
+}
+@media All and (min-width:360px) and (max-width:767px){
+
+
+    .emiCardBanner{
+        /* border: solid; */
+        height: 250px;
+        margin: auto;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+       cursor: pointer;
+    }
+    .emiCardBanner>img{
+        width: 600px;
+    }
+    .childOne{
+        width: 99%;
+        /* border: solid; */
+        height: 360px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        margin-bottom: 650px;
+    }
+    .childOneA{
+        width: 99%;
+    height: 460px;
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* display: flex; */
+    gap: 35px;
+    margin-bottom: 550px;
+    /* justify-content: space-evenly; */
+    }
+    
+    .childTwo{
+        /* padding: 7px; */
+       padding: 0px 9px;
+       width:100%;
+       height: 99%;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+       
+       /* border: 2px solid black; */
+       margin-top: 10px;
+       
+       background-color: white;
+    }
+    }
+    @media All and (min-width:768px) and (max-width:1023px){
+
+
+        .emiCardBanner{
+            /* border: solid; */
+            height: 250px;
+            margin: auto;
+            margin-top: 20px;
+            width: 98.6%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+           cursor: pointer;
+        }
+        .emiCardBanner>img{
+            width: 700px;
+        }
+        .childOne{
+            width: 99%;
+            /* border: solid; */
+            height: 460px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 25px;
+            margin-bottom: 530px;
+            /* overflow:scroll; */
+            }
+            .childTwo{
+                /* padding: 7px; */
+               padding: 0px 9px;
+               width:100%;
+               height: 99%;
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+               
+               /* border: 2px solid black; */
+               margin-top: 16px;
+            
+               background-color: white;
+               
+            }
+        .childOneA{
+            width: 99%;
+            /* border: solid; */
+            height: 460px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 25px;
+            margin-bottom: 530px;
+        }
+        }

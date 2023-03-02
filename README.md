@@ -1,3 +1,4 @@
+
 # amazon.com
 Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington,[7] on July 5, 1994. Initially an online marketplace for books, it has expanded into a multitude of product categories, a strategy that has earned it the moniker The Everything Store.
 
@@ -39,3 +40,5 @@ https://steady-swan-05d49a.netlify.app/
 <b> Cart Page </b>
 
 ![Cart page](https://i.ibb.co/QmG8bzQ/Cart-page.png)
+
+
