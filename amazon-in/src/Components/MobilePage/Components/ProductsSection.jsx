@@ -1,10 +1,10 @@
-import { Flex, Select, Stack } from "@chakra-ui/react";
+import { Flex, Select } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import ProductsList from "./ProducstList";
+import SidebarDrawer from "./SidebarDrawer";
 
-const ProductsSection = ({ category }) => {
-	console.log("category prod sec:", category);
+const ProductsSection = ({ category, handleFilter }) => {
 	const [sortBy, setSortBy] = useState("");
 	const [order, setOrder] = useState("");
 
@@ -26,10 +26,9 @@ const ProductsSection = ({ category }) => {
 				return;
 		}
 	};
-	console.log("sortBy:", sortBy);
 	return (
-		<Stack>
-			<Flex pl={2} justify={"flex-start"}>
+		<Flex flexDir={"column"} gap={4}>
+			<Flex justify="space-between" gap={4}>
 				<Select
 					variant={"filled"}
 					size="md"
@@ -42,9 +41,12 @@ const ProductsSection = ({ category }) => {
 					<option value="priceHightToLow">Price hight to low</option>
 					<option value="avgCustomerReview">Avg. customer review</option>
 				</Select>
+				<Flex display={["flex", "flex", "flex", "none"]}>
+					<SidebarDrawer handleFilter={handleFilter} category={category} />
+				</Flex>
 			</Flex>
 			<ProductsList sortBy={sortBy} order={order} category={category} />
-		</Stack>
+		</Flex>
 	);
 };
 
