@@ -1,5 +1,4 @@
 .cart{
-    /* border:1px solid red; */
     display: flex;
     flex-direction: column;
 }
@@ -11,13 +10,8 @@
     height: 170px;
     display: flex;
     margin-bottom: 10px;
-   
-    /* justify-content: space-around; */
-    /* border: 1px solid red; */
-    
 }
 .cartmap>div:nth-child(1){
-    /* border: 1px solid red; */
     width: 20%;
     display: flex;
     justify-content: center;
@@ -25,30 +19,24 @@
 }
 .cartmap>div:nth-child(1)>img{
     width: 60%;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  
 }
 .cartmap>div:nth-child(2){
-    /* border: 1px solid red; */
     width: 60%;
     margin-left: 3%;
     text-align: left;
     margin-top: -8px;
-   
 }
 .cartmap>div:nth-child(2)>p{
     font-size: 13px;
 }
 
 .cartmap>div:nth-child(3){
-    /* border: 1px solid red; */
     width: 20%;
     margin-left: 3%;
     text-align: center;
     margin-top: 10%;
 }
 .total{
-    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     display: flex;
