@@ -39,9 +39,9 @@ function Navbar({ username }) {
           <input className="nav-search-bar" type="text" />
           <SearchIcon
             className="search-icon"
-            padding={7}
-            w={30}
-            h={30}
+            padding={4}
+            w={27}
+            h={27}
             bg={"#F6AD55"}
           />
           {/* <div className="ind-flag-div">
@@ -52,7 +52,7 @@ function Navbar({ username }) {
             />
             <p>EN</p>
           </div> */}
-           <button>
+          <button>
             <Link to="/admin" className="nav-acc-btn">
               Admin
             </Link>
@@ -66,7 +66,6 @@ function Navbar({ username }) {
             Return <br /> & Order
           </button>
           <Link to="/cart">
-           
             <div className="nav-cart">
               <img src={cart} alt="Cart-icon" />
             </div>
@@ -104,11 +103,9 @@ function Navbar({ username }) {
             <p>Prime</p>
           </div>
           <Link to="/fashion">
-          <div className="nav-main-div-two-elements">
-            
+            <div className="nav-main-div-two-elements">
               <p>Fashion</p>
-           
-          </div>
+            </div>
           </Link>
           <div className="nav-main-div-two-elements">
             <p>Amazon Pay</p>
