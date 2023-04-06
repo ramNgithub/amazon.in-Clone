@@ -10,9 +10,7 @@
 }
 
 .social {
-  /* border:solid blue; */
   height: 100%;
-  /* width: 980px; */
   margin-right: 20px;
 }
 .smallWord {
@@ -22,7 +20,6 @@
   cursor: pointer;
 }
 .footer > div:nth-child(5) > div {
-  /* border:solid red; */
   height: 20px;
   width: 250px;
   display: flex;
@@ -30,7 +27,13 @@
   margin-left: 150px;
 }
 .socialIcon {
-  width: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.socialIcon:hover {
+  width: 45px;
+  height: 45px;
   cursor: pointer;
 }
 .footer > div:nth-child(5) > p {
@@ -42,7 +45,6 @@
   background-color: rgb(94, 94, 94);
   padding: 10px 0px;
   width: 100%;
-  /* margin-top: 50px; */
   color: white;
 }
 .logo {
