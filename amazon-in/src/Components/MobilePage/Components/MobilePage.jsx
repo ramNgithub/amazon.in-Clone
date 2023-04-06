@@ -4,27 +4,26 @@ import ProductsSection from "./ProductsSection";
 import Sidebar from "./Sidebar";
 
 const MobilePage = () => {
-	const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("");
 
-	useEffect(() => {}, [category]);
+  useEffect(() => {}, [category]);
 
-	const handleFilter = e => {
-		setCategory(e.target.value);
-	};
+  const handleFilter = (e) => {
+    setCategory(e.target.value);
+  };
 
-	return (
-		<Flex m={4} gap={4}>
-			<Box display={["none", "none", "none", "block"]}>
-				<Sidebar handleFilter={handleFilter} category={category} />
-			</Box>
-			<Box>
-				<ProductsSection
-					category={category}
-					handleFilter={handleFilter}
-				/>
-			</Box>
-		</Flex>
-	);
+  return (
+    <>
+      <Flex m={4} gap={4}>
+        <Box display={["none", "none", "none", "block"]}>
+          <Sidebar handleFilter={handleFilter} category={category} />
+        </Box>
+        <Box>
+          <ProductsSection category={category} handleFilter={handleFilter} />
+        </Box>
+      </Flex>
+    </>
+  );
 };
 
 export default MobilePage;

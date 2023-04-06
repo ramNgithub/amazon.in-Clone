@@ -539,7 +539,7 @@ export const Fashion = () => {
         {/* completed fashion page */}
         {/* write everything above this */}
       </Box>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

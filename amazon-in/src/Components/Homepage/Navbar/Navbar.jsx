@@ -102,7 +102,7 @@ function Navbar({ username }) {
           <div className="nav-main-div-two-elements">
             <p>Prime</p>
           </div>
-          <Link to="/fashion">
+          <Link to="/fashion" className="bestSeller">
             <div className="nav-main-div-two-elements">
               <p>Fashion</p>
             </div>
