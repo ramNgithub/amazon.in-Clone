@@ -1,10 +1,50 @@
-import { Button, Center, Code, Flex, Img, Stack, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Center,
+  Code,
+  Flex,
+  Img,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { productsArray } from "../Utils/data";
-import Footer from "../../Homepage/Home/Footer/Footer";
+import { FooterChakra } from "../../Homepage/Home/Footer/FooterChakra";
+
+import axios from "axios";
+import ProductCard from "../../BestSeller/ProductCard";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+// import Footer from "../Homepage/Home/Footer/Footer";
 
 const MobileSingleProduct = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 320, min: 0 },
+      items: 1,
+    },
+  };
+  const [smartPhones, setSmartPhones] = useState([]);
+
+  const getSmartPhones = () => {
+    return axios.get(`https://dummyjson.com/products/category/smartPhones`);
+  };
+
   const [qty, setQty] = useState();
   const { id } = useParams();
   const [product, setProduct] = useState();
@@ -15,6 +55,11 @@ const MobileSingleProduct = () => {
     setProduct(singleProduct);
     setQty(singleProduct.quantity);
     setIsLoading(false);
+
+    getSmartPhones().then((res) => {
+      console.log(res);
+      setSmartPhones(res.data.products);
+    });
   }, []);
 
   const handleQuantityChange = (val) => {
@@ -107,6 +152,16 @@ const MobileSingleProduct = () => {
           </Button>
         </Stack>
       </Flex>
+      <Box>
+        <Carousel responsive={responsive}>
+          {smartPhones.map((el) => (
+            <Box key={el.id}>
+              <ProductCard {...el} />
+            </Box>
+          ))}
+        </Carousel>
+      </Box>
+      <FooterChakra />
     </>
   );
 };
