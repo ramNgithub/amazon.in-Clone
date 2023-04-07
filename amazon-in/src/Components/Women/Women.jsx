@@ -11,7 +11,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ProductsMainContainer } from "../Fashion/ProductsMainContainer";
 import Navbar from "../Homepage/Navbar/Navbar";
-import Footer from "../Homepage/Home/Footer/Footer";
+import FashionSidebar from "../Fashion/FashionSidebar";
+import { FooterChakra } from "../Homepage/Home/Footer/FooterChakra";
 
 export const Women = () => {
   const responsive1 = {
@@ -89,7 +90,9 @@ export const Women = () => {
         </Box>
       </Box>
       <Box display="flex">
-        <Box width="20%"></Box>
+        <Box width="20%">
+          <FashionSidebar />
+        </Box>
 
         <Box width="85%">
           {/* carousel1 */}
@@ -211,7 +214,7 @@ export const Women = () => {
           </Box>
           {/* --- beauty and grooming*/}
           <Box>
-            <Heading marginLeft="-20%">Beauty and Grooming</Heading>
+            <Heading>Beauty and Grooming</Heading>
             <SimpleGrid columns={[1, 3, 6]}>
               <Box p="10px" height="80px">
                 <Image src="https://m.media-amazon.com/images/G/31/img22/Fashion/AF/Flips/Winter22/beauty/Artboard_1-100._CB606129059_.jpg"></Image>
@@ -479,11 +482,14 @@ export const Women = () => {
           <Heading size="sm" p="20px" border="1px solid black">
             1-12 of over 200,000 results for Women
           </Heading>
-          <ProductsMainContainer></ProductsMainContainer>
+          <Box w="90%">
+            {" "}
+            <ProductsMainContainer></ProductsMainContainer>
+          </Box>
         </Box>
       </Box>
 
-      <Footer/>
+      <FooterChakra />
     </div>
   );
 };

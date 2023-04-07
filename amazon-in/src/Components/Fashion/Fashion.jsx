@@ -15,6 +15,7 @@ import { ProductsMainContainer } from "./ProductsMainContainer";
 import { Link } from "react-router-dom";
 import Navbar from "../Homepage/Navbar/Navbar";
 import { FooterChakra } from "../Homepage/Home/Footer/FooterChakra";
+import FashionSidebar from "./FashionSidebar";
 
 export const Fashion = () => {
   const responsive1 = {
@@ -95,7 +96,9 @@ export const Fashion = () => {
       </Box>
       {/* main container */}
       <Box display="flex">
-        <Box width="20%"></Box>
+        <Box width="22%">
+          <FashionSidebar />
+        </Box>
 
         <Box width="80%">
           {/* Carousel1 */}
@@ -184,7 +187,7 @@ export const Fashion = () => {
           </Box>
 
           {/* 200 off */}
-          <Box bg="#d4d4d4">
+          <Box bg="#d4d4d4" mb="20px">
             <Box>
               <Image
                 margin="auto"
@@ -194,7 +197,7 @@ export const Fashion = () => {
             </Box>
 
             {/* carousel 2 */}
-            <Box>
+            <Box mt="20px">
               <Carousel showDots={true} responsive={responsive2}>
                 <Box>
                   <Image
@@ -236,7 +239,7 @@ export const Fashion = () => {
 
           {/* section 1 */}
           {/* Womens */}
-          <Heading marginLeft="-20%">Women's Clothing</Heading>
+          <Heading mb="20px">Women's Clothing</Heading>
           <SimpleGrid columns={[2, 4, 6]} spacing={5}>
             <Box bg="tomato" height="80px">
               <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/SBC/women/unrec/1-Women_03.jpg"></Image>
@@ -264,8 +267,8 @@ export const Fashion = () => {
               <Heading size="md">under ₹399</Heading>
             </Box>
           </SimpleGrid>
-          <Box marginTop="120px">
-            <Heading marginLeft="-20%">Men's Clothing</Heading>
+          <Box marginTop="140px">
+            <Heading mb="20px">Men's Clothing</Heading>
             <SimpleGrid columns={[2, 4, 6]} spacing={5}>
               <Box bg="tomato" height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/SBC/men/unrec/2-men_03.jpg"></Image>
@@ -297,8 +300,8 @@ export const Fashion = () => {
 
           {/* mens shoes */}
 
-          <Box marginTop="100px">
-            <Heading marginLeft="-20%">Men's Shoes</Heading>
+          <Box marginTop="140px">
+            <Heading mb="20px">Men's Shoes</Heading>
             <SimpleGrid columns={[2, 4, 6]} spacing={5}>
               <Box bg="tomato" height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/Unrec/SBCs/Mensshoes/1-SBC-men-shoe_03.jpg"></Image>
@@ -330,8 +333,8 @@ export const Fashion = () => {
 
           {/* womens shoes  */}
 
-          <Box marginTop="100px">
-            <Heading marginLeft="-20%">Women's Shoes</Heading>
+          <Box marginTop="140px">
+            <Heading mb="20px">Women's Shoes</Heading>
             <SimpleGrid columns={[2, 4, 6]} spacing={5}>
               <Box bg="tomato" height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/Unrec/SBCs/Womensshoes/Eng/1-SBC_03.jpg"></Image>
@@ -362,8 +365,8 @@ export const Fashion = () => {
           </Box>
 
           {/* trendy fashion  */}
-          <Box marginTop="100px">
-            <Heading marginLeft="-20%">Trendy fashion accessories</Heading>
+          <Box marginTop="140px">
+            <Heading mb="20px">Trendy fashion accessories</Heading>
             <SimpleGrid columns={[1, 2, 3]}>
               <Box height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/Unrec/SBCs/Accessories/Eng_07.jpg"></Image>
@@ -389,8 +392,8 @@ export const Fashion = () => {
           </Box>
 
           {/* brands in focus */}
-          <Box bg="#d4d4d4" height="500px" marginTop="130px">
-            <Heading marginLeft="-20%">Brands in focus</Heading>
+          <Box bg="#d4d4d4" height="500px" marginTop="180px">
+            <Heading mb="20px">Brands in focus</Heading>
 
             <Box width="90%" height="450px" marginLeft="5%" bg="white">
               {/* brands in focus box 1 */}
@@ -447,7 +450,7 @@ export const Fashion = () => {
 
           {/* Beauty and Grooming  */}
           <Box>
-            <Heading marginLeft="-20%">Beauty and Grooming</Heading>
+            <Heading mb="20px">Beauty and Grooming</Heading>
             <SimpleGrid columns={[1, 2, 3]}>
               <Box height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/SBC/beauty/unrec/english/Top-Picks-in-Beauty--Grooming--_03.jpg"></Image>
@@ -474,7 +477,7 @@ export const Fashion = () => {
 
           {/* kids fashion */}
           <Box marginTop="100px">
-            <Heading marginLeft="-20%">Kid's fashion</Heading>
+            <Heading mb="20px">Kid's fashion</Heading>
             <SimpleGrid columns={[2, 4, 6]} spacing={5}>
               <Box bg="tomato" height="80px">
                 <Image src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/JanART/Eventpage/Unrec/SBCs/Kids/1-SBC-kids_03.jpg"></Image>
@@ -506,8 +509,8 @@ export const Fashion = () => {
           {/* multicarousel */}
           <MultiCarousel></MultiCarousel>
           <Box display="flex">
-            <Box width="22%">{/* sorting section */}</Box>
-            <Box width="80%" p="20px" marginLeft="-50px">
+            <Box width="12%">{/* sorting section */}</Box>
+            <Box width="90%" p="20px" marginLeft="-150px">
               {/* Deals on Amazon Fashion & Beauty */}
 
               <Box
