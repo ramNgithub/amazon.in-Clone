@@ -214,13 +214,15 @@ const Bestseller = () => {
             <h3>About Bestsellers</h3>
             <p>These frequently updated lists contain bestselling items.</p>
           </div>
-          <div className={style.singinbtn}>
-            <h4>See personalized recommendations</h4>
-            <Link to="/login">
-              {" "}
-              <button className={style.signupbtn}>login</button>
-            </Link>
-            <h4>New customer? </h4>
+          <div className="signin">
+            <div className={style.singinbtn}>
+              <h4>See personalized recommendations</h4>
+              <Link to="/login">
+                {" "}
+                <button className={style.signupbtn}>login</button>
+              </Link>
+              <h4>New customer? </h4>
+            </div>
           </div>
         </div>
       </div>

@@ -34,10 +34,10 @@ const SingleProductPage = () => {
       items: 1,
     },
   };
-  const [sPhones, setSPhones] = useState([]);
+  const [bags, setBags] = useState([]);
 
   const getSPhones = () => {
-    return axios.get(`https://dummyjson.com/products/category/smartphones`);
+    return axios.get(`https://dummyjson.com/products/category/womens-bags`);
   };
 
   const newProduct = JSON.parse(localStorage.getItem("product")) || {};
@@ -57,7 +57,7 @@ const SingleProductPage = () => {
 
     getSPhones().then((res) => {
       console.log(res);
-      setSPhones(res.data.products);
+      setBags(res.data.products);
     });
   }, []);
 
@@ -82,11 +82,11 @@ const SingleProductPage = () => {
       </div>
       <div>
         <div>
-          <h2> Bestsellers in Smartphones </h2>
+          <h2> Bestsellers in Bags </h2>
         </div>
         <div>
           <Carousel responsive={responsive}>
-            {sPhones.map((el) => (
+            {bags.map((el) => (
               <div key={el.id}>
                 <ProductCard {...el} />
               </div>
