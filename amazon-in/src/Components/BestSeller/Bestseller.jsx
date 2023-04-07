@@ -7,6 +7,8 @@ import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 import Navbar from "../Homepage/Navbar/Navbar";
 import Footer from "../Homepage/Home/Footer/Footer";
+import style from "../Homepage/Home/MiddlePart/MidLower/MiddleLower.module.css";
+
 // import { Divider } from '@chakra-ui/react'
 const responsive = {
   superLargeDesktop: {
@@ -211,6 +213,14 @@ const Bestseller = () => {
           <div className="footinfo">
             <h3>About Bestsellers</h3>
             <p>These frequently updated lists contain bestselling items.</p>
+          </div>
+          <div className={style.singinbtn}>
+            <h4>See personalized recommendations</h4>
+            <Link to="/login">
+              {" "}
+              <button className={style.signupbtn}>login</button>
+            </Link>
+            <h4>New customer? </h4>
           </div>
         </div>
       </div>
