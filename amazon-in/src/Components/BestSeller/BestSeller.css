@@ -49,11 +49,6 @@
   text-align: left;
 }
 
-.slider {
-  position: relative;
-  width: 85%;
-  margin: auto;
-}
 .products > div {
   margin-bottom: 20px;
 }
