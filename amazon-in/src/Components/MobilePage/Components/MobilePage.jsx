@@ -2,7 +2,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import ProductsSection from "./ProductsSection";
 import Sidebar from "./Sidebar";
-import Footer from "../../Homepage/Home/Footer/Footer";
+import { FooterChakra } from "../../Homepage/Home/Footer/FooterChakra";
 
 const MobilePage = () => {
   const [category, setCategory] = useState("");
@@ -23,7 +23,7 @@ const MobilePage = () => {
           <ProductsSection category={category} handleFilter={handleFilter} />
         </Box>
       </Flex>
-      <Footer />
+      <FooterChakra />
     </>
   );
 };
