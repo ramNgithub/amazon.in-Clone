@@ -1,187 +1,189 @@
-@import url('https://fonts.cdnfonts.com/css/amazon-ember');
-.Header>p:nth-child(1){
-    font-family: "Amazon Ember" , Arial, sans-serif;
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+.Header > p:nth-child(1) {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #0f1111;
+}
+.Header > p:nth-child(2) {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  margin-top: -25px;
+}
+.Header {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 1%;
+}
+.Midpart {
+  width: 98%;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.Midpart > div > p {
+  font-size: small;
+}
+.Midpart > div:nth-child(1) {
+  border-right: 1px solid grey;
+  /* height: auto; */
+  height: 970px;
+  padding-right: 1%;
+}
+.Midpart > div:nth-child(1) > p {
+  text-align: left;
+  margin-left: 5%;
+}
+.Midpart > div:nth-child(1) > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Midpart > div:nth-child(1) > h4 {
+  text-align: left;
+}
+
+.products > div {
+  margin-bottom: 20px;
+}
+.products > div > div > p {
+  color: #0f1111;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+}
+.carousel-container {
+  margin-bottom: 10px;
+  margin-top: -120px;
+  position: relative;
+}
+.carousel-headings {
+  position: absolute;
+  top: -3%;
+  left: 10%;
+  transform: translate(-25%, -50%);
+  z-index: 1;
+  color: #0f1111;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.footinfo {
+  text-align: left;
+  margin-left: 1%;
+  margin-top: -100px;
+}
+.footinfo > p {
+  margin-top: -20px;
+}
+@media All and (min-width: 1024px) and (max-width: 3000px) {
+  .Midpart > div:nth-child(1) {
+    /* border: 1px solid blue; */
+    width: 13%;
+    font-family: "Amazon Ember";
     font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    color: #0f1111;
-}                
-.Header>p:nth-child(2){
-    font-family: "Amazon Ember" , Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #666666;
-    margin-top: -25px;
-}
-.Header{
-    margin-top: 20px;
-    text-align: left;
-    margin-left: 1%;
-}
-.Midpart{
-    width: 98%;
-    height: auto;
-    margin: auto;
-    /* border: 1px solid red; */
-    display: flex;
-  
-}
-.Midpart>div:nth-child(1){
-    border-right: 1px solid grey;
-    /* height: auto; */
-    height: 970px;
-    padding-right: 1%;
-}
-.Midpart>div:nth-child(1)>p{
-    text-align: left;
-    margin-left: 5%;
-}
-.Midpart>div:nth-child(1)>p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.Midpart>div:nth-child(1)>h4{
-    text-align: left;
-}
-/* .products>div>div>p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+  }
+  .Midpart > div:nth-child(2) {
+    /* border: 1px solid green; */
+    width: 87%;
+  }
+  /* .products > div > div > p {
     font-family: "Amazon Ember"-700;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #0f1111;
+    text-align: center;
+  } */
+}
+
+@media All and (min-width: 320px) and (max-width: 768px) {
+  .Midpart > div:nth-child(1) {
+    /* border: 1px solid blue; */
+    width: 20%;
+    font-family: "Amazon Ember";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+  }
+  .Midpart > div:nth-child(2) {
+    /* border: 1px solid green; */
+    width: 80%;
+  }
+  .products > div > div > p {
+    font-family: "Amazon Ember"-700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0f1111;
     text-align: left;
     margin-left: 3%;
-} */
-
-.slider{
-    /* border: 1px solid red; */
-    /* margin-left: 10%; */
-    width: 85%;
-    margin: auto;
-    margin-top: -10px;
+  }
 }
-
-.footinfo{
+@media All and (min-width: 768px) and (max-width: 1024px) {
+  .Midpart > div:nth-child(1) {
+    /* border: 1px solid blue; */
+    width: 20%;
+    font-family: "Amazon Ember";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+  }
+  .Midpart > div:nth-child(2) {
+    /* border: 1px solid green; */
+    width: 80%;
+  }
+  .products > div > div > p {
+    font-family: "Amazon Ember"-700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0f1111;
     text-align: left;
-    margin-left: 1%;
+    margin-left: 3%;
+  }
 }
-.footinfo>p{
-    margin-top: -20px;
-}
-@media All and (min-width: 1024px) and (max-width : 3000px){
-    
-    .Midpart>div:nth-child(1){
-        /* border: 1px solid blue; */
-        width: 13%;
-        font-family: "Amazon Ember";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 15px;
-        color: #000000;
-    
-    }
-    .Midpart>div:nth-child(2){
-        /* border: 1px solid green; */
-        width: 87%;
-    }
-    .products>div>div>p{
-        font-family: "Amazon Ember"-700;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 32px;
-        color: #0f1111;
-        text-align: left;
-        margin-left: 3%;
-    }
-    
-  
-}
-
-@media All and (min-width: 320px) and (max-width: 768px){
-    .Midpart>div:nth-child(1){
-        /* border: 1px solid blue; */
-        width: 20%;
-        font-family: "Amazon Ember";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 15px;
-        color: #000000;
-    
-    }
-    .Midpart>div:nth-child(2){
-        /* border: 1px solid green; */
-        width: 80%;
-    }
-    .products>div>div>p{
-        font-family: "Amazon Ember"-700;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 22px;
-        color: #0f1111;
-        text-align: left;
-        margin-left: 3%;
-    }
-    
-}
-@media All and (min-width: 768px) and (max-width: 1024px){
-    .Midpart>div:nth-child(1){
-        /* border: 1px solid blue; */
-        width: 20%;
-        font-family: "Amazon Ember";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 15px;
-        color: #000000;
-    
-    }
-    .Midpart>div:nth-child(2){
-        /* border: 1px solid green; */
-        width: 80%;
-    }
-    .products>div>div>p{
-        font-family: "Amazon Ember"-700;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 26px;
-        color: #0f1111;
-        text-align: left;
-        margin-left: 3%;
-    }
-}
-@media All and (min-width: 0px) and (max-width: 320px){
-    .Midpart>div:nth-child(1){
-        /* border: 1px solid blue; */
-        width: 40%;
-        font-family: "Amazon Ember";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 15px;
-        color: #000000;
-    
-    }
-    .Midpart>div:nth-child(2){
-        /* border: 1px solid green; */
-        width: 60%;
-    }
-    .products>div>div>p{
-        font-family: "Amazon Ember"-700;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-        color: #0f1111;
-        text-align: left;
-        margin-left: 3%;
-    }
+@media All and (min-width: 0px) and (max-width: 320px) {
+  .Midpart > div:nth-child(1) {
+    /* border: 1px solid blue; */
+    width: 40%;
+    font-family: "Amazon Ember";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+  }
+  .Midpart > div:nth-child(2) {
+    /* border: 1px solid green; */
+    width: 60%;
+  }
+  .products > div > div > p {
+    font-family: "Amazon Ember"-700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1111;
+    text-align: left;
+    margin-left: 3%;
+  }
 }
