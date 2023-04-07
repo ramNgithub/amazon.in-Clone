@@ -1,177 +1,174 @@
-.ShopBag-logo{
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 10px;
-    cursor: pointer;
+.ShopBag-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
 }
-.nav-main-div{
-    background-color: black;
-    height: 100px;
-    display: flex;
+.nav-main-div {
+  background-color: black;
+  height: 100px;
+  display: flex;
 }
-.nav-search-bar{
-    padding: 10px;
-    font-size: 18px;
-    width: 60%;
-    margin-left: 20px;
-    border-radius: 5px 0px 0px 5px;
+.nav-search-bar {
+  padding: 5px;
+  font-size: 18px;
+  width: 60%;
+  margin-left: 20px;
+  margin-right: 0.5px;
+  border-radius: 5px 0px 0px 5px;
 }
-.nav-search-bar:focus{
+.nav-search-bar:focus {
   outline: 0;
 }
-.nav-main-div-one{
-    /* background-color: blue; */
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+.nav-main-div-one {
+  /* background-color: blue; */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-.search-icon{
-    cursor: pointer;
-    margin-top: 0.8px;
-    border-radius: 0px 5px 5px 0px;
+.search-icon {
+  cursor: pointer;
+  margin: 0.8px;
+  border-radius: 0px 5px 5px 0px;
 }
-.search-icon:hover{
-    background-color: rgb(255, 166, 0);
+.search-icon:hover {
+  background-color: rgb(234, 186, 96);
 }
-.ind-flag-div{
-    /* background-color: bisque; */
-    display: flex;
-    margin-left: 25px;
-    gap: 5px;
-    align-items: center;
-    
-    height: 25px;
-    padding: 10px;
-}
-.ind-flag-div>p{
-    color: white;
-}
-.ind-flag-div>img{
-    height: 20px;
+.ind-flag-div {
+  /* background-color: bisque; */
+  display: flex;
+  margin-left: 25px;
+  gap: 5px;
+  align-items: center;
 
+  height: 25px;
+  padding: 10px;
 }
-.ind-flag-div:hover{
-    background-color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:groove;
+.ind-flag-div > p {
+  color: white;
 }
-.nav-main-div-one>button{
-    background-color: black;
-    color: white;
-    
-    margin-left: 20px;
-    height: 46px;
-    width: 80px;
-    font-weight: bold;
-    font-size: 15px;
-    
+.ind-flag-div > img {
+  height: 20px;
 }
-.nav-main-div-one>button:hover{
-    background-color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: white;
-    border-style:groove;
+.ind-flag-div:hover {
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: groove;
 }
-.nav-cart{
-    color: white;
-    /* padding-left: 10px; */
-    /* background-color: rgb(148, 148, 125); */
-    margin-left: 20px;
-    height: auto;
-    
+.nav-main-div-one > button {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  height: 46px;
+  width: 80px;
+  font-size: small;
+  font-weight: 1000;
 }
-.nav-cart>img{
-    width: 40px;
-    /* margin-top: -45px; */
+.nav-main-div-one > button:hover {
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0.5px solid white;
 }
-.nav-cart>p{
-   margin-left: 15px;
-   font-weight: bold;
-   font-size: 20px;
-   color: rgb(247, 167, 17);
-   margin-top: -5px;
-   margin-bottom: -10px;
+.nav-cart {
+  color: white;
+  margin-left: 20px;
+  height: auto;
 }
-.nav-cart:hover{
-    /* padding: 0px 10px ; */
-    background-color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:inset;
+.nav-cart > img {
+  width: 40px;
+  /* margin-top: -45px; */
+}
+.nav-cart > p {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(247, 167, 17);
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+.nav-cart:hover {
+  /* padding: 0px 10px ; */
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: inset;
 }
 
-.nav-main-div-two{
-    /* background-color: aqua; */
-    height: 40px;
-    display: flex;
-  
-    align-items: center;
-    gap: 15px;
-
+.nav-main-div-two {
+  background-color: rgba(42, 67, 80, 0.934);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
 }
 
-.nav-main-div-main{
-    /* background-color: blueviolet; */
-    width: 100%;
+.nav-main-div-main {
+  /* background-color: blueviolet; */
+  width: 100%;
 }
-.nav-main-div-two>div:nth-child(1){
-    margin-left: 10px;
+.nav-main-div-two > div:nth-child(1) {
+  margin-left: 10px;
 }
-.nav-main-div-two-elements{
+.nav-main-div-two-elements {
+  /* background-color: black; */
+  color: white;
+  height: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: small;
+}
+.nav-main-div-two-elements:hover {
+  padding: 0px 10px;
+  border: white 0.5px solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.bestSeller {
+  color: white;
+  text-decoration: none;
+}
+.nav-acc-btn {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bolder;
+}
+.nav-name-div {
+  color: white;
+  /* background-color: aquamarine; */
 
-    background-color: black;
-    color: white;
-    height: 80%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding: 0px 10px;
-    border-radius: 5px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  padding: 0px 20px;
 }
-.nav-main-div-two-elements:hover{
-    padding: 0px 10px ;
-    background-color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    border-style:inset;
-    
-}
-.bestSeller{
-    color: white;
-    text-decoration: none;
-}
-.nav-acc-btn{
-    color: white;
-    text-decoration: none;
-}
-.nav-name-div{
-    color: white;
-    /* background-color: aquamarine; */
-   
-    height: 80%;
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    padding: 0px 20px;
-}
-
 
 @media (min-width: 767px) and (max-width: 1024px) {
-    .nav-main-div{
-        width: 100%;
-        background-color: black;
-        height: 150px;
-        display: flex;
-    }
-    .nav-search-bar{
-        padding: 10px;
-        font-size: 18px;
-        width: 40%;
-        margin-left: 20px;
-        border-radius: 5px 0px 0px 5px;
-    }
+  .nav-main-div {
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    display: flex;
   }
+  .nav-search-bar {
+    padding: 10px;
+    font-size: 18px;
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 5px 0px 0px 5px;
+  }
+}
