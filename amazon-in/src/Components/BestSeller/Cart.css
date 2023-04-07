@@ -1,53 +1,68 @@
-.cart{
-    display: flex;
-    flex-direction: column;
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+.Box {
+  height: 50px;
+}
+.empty {
+  margin: auto;
+  width: 70%;
+}
+.message {
+  margin-left: 350px;
+}
+.signin {
+  margin-left: -50px;
+  margin-bottom: 50px;
 }
 
-.cartmap{
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    width: 80%;
-    margin: auto;
-    height: 170px;
-    display: flex;
-    margin-bottom: 10px;
+.cartmap {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 80%;
+  margin: auto;
+  height: 170px;
+  display: flex;
+  margin-bottom: 10px;
 }
-.cartmap>div:nth-child(1){
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cartmap > div:nth-child(1) {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cartmap>div:nth-child(1)>img{
-    width: 60%;
+.cartmap > div:nth-child(1) > img {
+  width: 60%;
 }
-.cartmap>div:nth-child(2){
-    width: 60%;
-    margin-left: 3%;
-    text-align: left;
-    margin-top: -8px;
+.cartmap > div:nth-child(2) {
+  width: 60%;
+  margin-left: 3%;
+  text-align: left;
+  margin-top: -8px;
 }
-.cartmap>div:nth-child(2)>p{
-    font-size: 13px;
+.cartmap > div:nth-child(2) > p {
+  font-size: 13px;
 }
 
-.cartmap>div:nth-child(3){
-    width: 20%;
-    margin-left: 3%;
-    text-align: center;
-    margin-top: 10%;
+.cartmap > div:nth-child(3) {
+  width: 20%;
+  margin-left: 3%;
+  text-align: center;
+  margin-top: 10%;
 }
-.total{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.total {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.total>button{
-    margin-left: 20px;
-    padding: 5px 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 2px;
+.total > button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
 }
