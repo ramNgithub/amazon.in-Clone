@@ -64,15 +64,16 @@ const SingleProductPage = () => {
   return (
     <>
       <Navbar />
-      <h4>Product Info</h4>
       <div className="singleProduct">
         <div className="left">
           <img src={newProduct.thumbnail} alt="" />
         </div>
         <div className="right">
           <h1>{newProduct.title}</h1>
-          <h4>{newProduct.description}</h4>
-          <h2>${newProduct.price}.00</h2>
+          <h3>{newProduct.description}</h3>
+          <p className="details">Brand: {newProduct.brand}</p>
+          <p className="details">rating: {newProduct.rating}</p>
+          <h2>Price: ${newProduct.price}.00</h2>
           <button onClick={() => handleClick(newProduct)} className="addcart">
             Add to Cart
           </button>

@@ -1,7 +1,12 @@
 .singleProduct {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 .left {
   width: 50%;
@@ -14,15 +19,21 @@
   width: 80%;
 }
 .left > img:hover {
-  width: 85%;
+  width: 100%;
 }
 .right {
-  margin-top: -100px;
+  margin-top: -70px;
   width: 20%;
   padding: 5%;
+  justify-items: flex-start;
 }
-.right > h4 {
+.right > h3,
+h2 {
+  margin-top: -15px;
   width: 60%;
+}
+.details {
+  margin-top: -12px;
 }
 .addcart {
   background-color: #ffd814;
