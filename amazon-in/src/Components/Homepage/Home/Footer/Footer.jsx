@@ -13,12 +13,13 @@ const Footer = () => {
             <img className={style.logo} src={logo} alt="Not-Found" />
           </Link>
         </div>
-        <p>
+        {/* <p>
           ____________________________________________________________________________________________________________________________________________________________________________________________
-        </p>
+        </p> */}
+        <hr />
 
         <div className={style.footer}>
-          <div className="style.container">
+          <div className={style.container}>
             <h4 className={style.smallWord}>About amazon</h4>
             <p className={style.smallWord}>Prees room</p>
             <p className={style.smallWord}>Company info</p>
@@ -27,7 +28,7 @@ const Footer = () => {
             <p className={style.smallWord}>Amazon recycling program</p>
             <p className={style.smallWord}>Blog</p>
           </div>
-          <div className="style.container">
+          <div className={style.container}>
             <h4 className={style.smallWord}>Help</h4>
             <p className={style.smallWord}>Product & help center</p>
             <p className={style.smallWord}>Shipping</p>
@@ -37,15 +38,15 @@ const Footer = () => {
             <p className={style.smallWord}>Klarna</p>
           </div>
 
-          <div className="style.container">
+          <div className={style.container}>
             <h2 className={style.smallWord}>Make Money with Us</h2>
             <p className={style.smallWord}> Sell on Amazon</p>
             <p className={style.smallWord}>Sell under Amazon Accelerator</p>
             <p className={style.smallWord}>Protect and Build Your Brand</p>
             <p className={style.smallWord}>Amazon Global Selling</p>
           </div>
-          <div className="style.container">
-            <p className={style.smallWord}>Let Us Help You</p>
+          <div className={style.container}>
+            <h2 className={style.smallWord}>Let Us Help You</h2>
             <p className={style.smallWord}>COVID-19 and Amazon</p>
             <p className={style.smallWord}>Your Account</p>
             <p className={style.smallWord}>Returns Centre</p>
@@ -53,7 +54,7 @@ const Footer = () => {
             <p className={style.smallWord}>Help</p>
           </div>
 
-          <div className="style.social">
+          <div className={style.social}>
             <p>Let’s Get Social</p>
             <div>
               <img
@@ -80,9 +81,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <p>
+        {/* <p>
           ____________________________________________________________________________________________________________________________________________________________________________________________
-        </p>
+        </p> */}
+        <hr />
         <p className={style.lastTuch}>
           © 2022 Amazon Privacy Policy | Terms & Conditions | Accessibility |
           California Supply Chains Act | DSA Code Of Ethics | Disclaimer |

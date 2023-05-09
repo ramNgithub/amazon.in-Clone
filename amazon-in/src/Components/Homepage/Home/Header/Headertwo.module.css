@@ -1,4 +1,4 @@
-/* @media All and (min-width:1024) and (max-width:3000px){ */
+ @media All and (min-width:1025px) and (max-width:3000px){ 
 
 
 .container{
@@ -8,10 +8,6 @@
     /* border: 2px solid red; */
     margin-top: -230px;
 }
-
- 
-
-
 .childOne{
     width: 99%;
     height: 460px;
@@ -82,110 +78,88 @@
     color: blue;
     cursor: pointer;
 }
+ }
 
-@media All and (min-width:361px) and (max-width:767px){
+  @media (max-width:780px){
     .childOne{
-        width: 99%;
-        /* border: solid; */
+        width: 100%;
         height: 360px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 25px;
-        margin-bottom: 650px;
+        margin-bottom: 1000px;
     }
     .childOneA{
         width: 99%;
-    height: 460px;
-    /* border: 2px solid blue; */
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    /* display: flex; */
-    gap: 35px;
-    margin-bottom: 550px;
-    /* justify-content: space-evenly; */
+        height: 460px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 35px;
+        margin-bottom: 1000px;
     }
     
-    .childTwo{
-        /* padding: 7px; */
-       padding: 0px 9px;
+    .childTwo{ 
        width:100%;
-       height: 99%;
+       height: auto;
        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-       
-       /* border: 2px solid black; */
-       margin-top: 10px;
-       
-       background-color: white;
+       background-color: white; 
        
     }
-}
-@media All and (min-width:768px) and (max-width:1023px){
+
+    .childThree{
+        display: grid;
+        grid-template-columns: repeat(2,46%);
+        grid-template-rows: repeat(2,160px);
+        gap: 20px;
+        justify-content: space-evenly;
+        margin-left: 70px;
+        
+      }
+      .childTwo>p{
+        color: blue;
+        cursor: pointer;
+        margin-left: 70px;
+    }
+}  
+
+ @media All and (min-width:781px) and (max-width:1024px){
     .childOne{
         width: 99%;
-        /* border: solid; */
         height: 460px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 25px;
-        margin-bottom: 530px;
-        /* overflow:scroll; */
-        }
+        margin-bottom: 580px;
+       
+        
+    }
         .childTwo{
-            /* padding: 7px; */
            padding: 0px 9px;
            width:100%;
            height: 99%;
            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
            
-           /* border: 2px solid black; */
            margin-top: 16px;
         
            background-color: white;
            
         }
+        .childThree{
+  
+            display: grid;
+            grid-template-columns: repeat(2,46%);
+            grid-template-rows: repeat(2,160px);
+            gap: 20px;
+            justify-content: space-evenly;
+            
+          }
     .childOneA{
         width: 99%;
-        /* border: solid; */
         height: 460px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 25px;
-        margin-bottom: 530px;
-    }
-}
-@media All and (min-width:0px) and (max-width:360px){
-    .childOne{
-        width: 99%;
-        /* border: solid; */
-        height: 460px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 15px;
-        margin-bottom: 1530px;
-    }
-    .childOneA{
-        width: 99%;
-    height: 460px;
-    /* border: 2px solid blue; */
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    /* display: flex; */
-    gap: 35px;
-    margin-bottom: 1530px;
-    /* justify-content: space-evenly; */
-    }
-    
-    .childTwo{
-        /* padding: 7px; */
-       padding: 0px 9px;
-       width:100%;
-       height: 99%;
-       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-       
-       /* border: 2px solid black; */
-       margin-top: 10px;
-       
-       background-color: white;
+        margin-bottom: 580px;
        
     }
-}
+} 

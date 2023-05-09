@@ -1,0 +1,124 @@
+/* .mainDiv{
+    border: solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mainDiv>div{
+    border: solid;
+    height: auto;
+}
+.mainDiv>div:nth-child(1){
+    width: 350px;
+    
+   
+}
+.mainDiv>div:nth-child(2){
+    width: 1150px;
+}
+.mainImg{
+    width: 200px;
+    height: 260px;
+    
+}
+.singleDiv{
+    width: 350px;
+    height: 370px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.desDiv>h2{
+margin-bottom: -10px;
+margin-top: 10px;
+}
+
+.desDiv>p:hover{
+    color: blue;
+} */
+
+
+/* Electronics page styles */
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .singleDiv {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .singleDiv:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mainImg {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .desDiv {
+    padding: 10px;
+  }
+  
+  
+ 
+  
+  .pageButton {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .pageButton:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Filter and sorting styles */
+  .sortFilterDiv {
+    margin-right: 20px;
+  }
+  
+  
+  
+  input[type='checkbox'] {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  select {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  select:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../Homepageimgs/ShopBaglogo.png";
 import { SearchIcon } from "@chakra-ui/icons";
 import cart from "../Homepageimgs/shopping-cart.png";
@@ -7,7 +7,9 @@ import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
+import {GiHamburgerMenu} from "react-icons/gi";
 function Navbar({ username }) {
+  const [showHamburger,setShowHamburger]=useState(false)
   const navigate = useNavigate();
 
   const handlesignout = () => {
@@ -25,18 +27,20 @@ function Navbar({ username }) {
     }
   };
 
+
+
   return (
     <div className="nav-main-div">
       <div>
         <Link to="/">
-          {" "}
+         
           <img className="ShopBag-logo" src={logo} alt="amazone-logo" />
         </Link>
       </div>
 
-      <div className="nav-main-div-main">
-        <div className="nav-main-div-one">
-          <input className="nav-search-bar" type="text" />
+      <div className={showHamburger ? "nav-main-div-main nav-responsive-main-div" : "nav-main-div-main"}>
+        <div className={ showHamburger ? "nav-main-div-one nav-div-one-responsiv" : "nav-main-div-one"}>
+          <input className={ showHamburger ? "nav-search-bar search-nav" : "nav-search-bar"} type="text" />
           <SearchIcon
             className="search-icon"
             padding={4}
@@ -71,9 +75,12 @@ function Navbar({ username }) {
             </div>
           </Link>
           <button onClick={handlesignout}>Signout</button>
+          <div className="Hamburger-menu">
+              <GiHamburgerMenu className="hamburger" onClick={() => setShowHamburger(!showHamburger)}/> 
+          </div>
         </div>
 
-        <div className="nav-main-div-two">
+        <div className={ showHamburger ? "nav-main-div-two nav-div-two-resp" : "nav-main-div-two"}>
           <div className="nav-main-div-two-elements">
             <p>All</p>
           </div>
@@ -97,7 +104,9 @@ function Navbar({ username }) {
             <p>Customer Service</p>
           </div>
           <div className="nav-main-div-two-elements">
+          <Link to="/electronics" className="electronics">
             <p>Electronics</p>
+          </Link>
           </div>
           <div className="nav-main-div-two-elements">
             <p>Prime</p>
@@ -118,8 +127,14 @@ function Navbar({ username }) {
           </div>
         </div>
       </div>
+      
+      {/* responsive section start */}
+
+      
     </div>
   );
 }
 
 export default Navbar;
+
+

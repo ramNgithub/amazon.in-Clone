@@ -17,6 +17,8 @@ import Login from "../Login/Login";
 import Navbar from "../Navbar/Navbar";
 import Signup from "../Signup/Signup";
 import { auth } from "../firebase";
+import Electronics from "../../Electronics/Electronics";
+import ElectronicSingleItem from "../../Electronics/ElectronicSingleItem";
 
 const MainRoutes = () => {
   const [userName, setuserName] = useState("");
@@ -63,6 +65,9 @@ const MainRoutes = () => {
         <Route path="/launchpad" element={<LaunchPad />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/singleproduct" element={<SingleProductPage />} />
+        <Route path="/electronics" element={<Electronics />} />
+        <Route path="/electronicsSingleItem" element={<ElectronicSingleItem />} />
+
 
         <Route
           path="/fashion"
