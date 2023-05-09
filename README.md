@@ -18,7 +18,7 @@ Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington,[7] on 
 
 
 ## Deployed Link
-https://steady-swan-05d49a.netlify.app/
+https://endearing-tarsier-5faa41.netlify.app/
 
 ## Pages & Features
 - Home Page(Stays)
